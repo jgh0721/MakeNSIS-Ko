@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <RadialixLocalizerProject>
   <Header FileVersion="19" Guid="{AC923C1B-6FA0-4024-86BF-2B66D7E7AB12}"/>
-  <IDESettings ProjectItemPath="0.Readme.html (readme_ko_kr.html)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
-    <StringTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+  <IDESettings ProjectItemPath="0.attributes.but (attributes.but)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
+    <StringTableSettings FocusedValueID="#0.#36" SortDirection="0" SortedColumnIndex="-1"/>
     <TextTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
     <AccelTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
     <ImageTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
@@ -15,14 +15,14 @@
     </Languages>
     <Info>
       <CreatedBy Date="2013-07-28T20-16-34">Radialix Version 3.00.00  Build 486</CreatedBy>
-      <ModifiedBy Date="2013-07-28T20-49-10">Radialix Version 3.00.00  Build 486</ModifiedBy>
+      <ModifiedBy Date="2013-07-28T21-16-58">Radialix Version 3.00.00  Build 486</ModifiedBy>
       <Author>DevTester</Author>
       <Organization>My House</Organization>
       <Comment/>
       <WebSite/>
       <ContactEMail/>
       <Copyright/>
-      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="2" AutoIncrementBuildNumber="1"/>
+      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="18" AutoIncrementBuildNumber="1"/>
     </Info>
     <Publisher>
       <ApplicationName>&lt;Title&gt; &lt;WinCode&gt;</ApplicationName>
@@ -992,213 +992,269 @@
             <Src CodePage="1252">
               <Data>\H{instattribs} Installer Attributes</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Changed="2013-07-28T20-53-10" Translated="2013-07-28T20-53-10" State="Validated">
+              <cur>
+                <Data>\H{instattribs} 설치관리자 속성</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="1">
             <Src CodePage="1252">
               <Data>\S1{attribgen} General Attributes</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Changed="2013-07-28T20-57-23" Translated="2013-07-28T20-57-23" State="Validated">
+              <cur>
+                <Data>\S1{attribgen} 일반적인 속성</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="2">
             <Src CodePage="1252">
               <Data>The commands below all adjust attributes of the installer. These attributes control how the installer looks and functions, including which pages are present in the installer, as what text is displayed in each part of each page, how the installer is named, what icon the installer uses, the default installation directory, what file it writes out, and more. Note that these attributes can be set anywhere in the file except in a \R{ssection}{Section} or \R{ffunction}{Function}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Changed="2013-07-28T21-05-10" Translated="2013-07-28T21-05-10" State="Validated">
+              <cur>
+                <Data>이 명령들은 설치관리자의 모든 속성을 조절합니다. 이 명령들은 설치관리자의 겉모습 및 기능을, 설치관리자에서 나타나는 각 페이지의 각 부분에 나타날 문자열 뿐만 아니라, 설치관리자의 이름, 설치관리자가 사용하는 아이콘, 기본 설치 디렉토리 작성 파일 이름 등을 제어합니다. 알림 : 이 속성들은 \R{ssection}{섹션}이나 \R{ffunction}{함수} 안에서가 아니라면 어디에서건 설정할 수 있습니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="3">
             <Src CodePage="1252">
               <Data>\\&lt;b\\&gt;\\&lt;u\\&gt;Defaults are bold and underlined\\&lt;/u\\&gt;\\&lt;/b\\&gt;</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Changed="2013-07-28T20-59-11" Translated="2013-07-28T20-59-11" State="Validated">
+              <cur>
+                <Data>\\&lt;b\\&gt;\\&lt;u\\&gt;기본값은 굵은 글씨와 밑줄로 표시되어 있습니다\\&lt;/u\\&gt;\\&lt;/b\\&gt;</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="4">
             <Src CodePage="1252">
               <Data>\S2{aaddbrandingimage} AddBrandingImage</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T20-57-39" State="Validated"/>
           </Vl>
           <Vl Index="5">
             <Src CodePage="1252">
               <Data>\c (left|right|top|bottom) (width|height) [padding]</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T20-57-39" State="Validated"/>
           </Vl>
           <Vl Index="6">
             <Src CodePage="1252">
               <Data>Adds a branding image on the top, bottom, left, or right of the installer. Its size will be set according to the width/height specified, the installer width/height and the installer font. The final size will not always be what you requested; have a look at the output of the command for the actual size. Because this depends on the installer font, you should use \R{asetfont}{SetFont} before \R{aaddbrandingimage}{AddBrandingImage}. The default padding value is 2.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Changed="2013-07-28T21-08-32" Translated="2013-07-28T21-08-32" State="Validated">
+              <cur>
+                <Data>설치관리자 위, 아래, 좌우 에 브랜딩 이미지를 추가합니다. 이미지의 크기는 지정한 가로/세로 크기, 인스톨러 가로/세로 크기, 인스톨러 글꼴을 따라서 설정됩니다. 최종 크기는 요청한 크기와 언제나 같지 않습니다. 명령에 의한 실제 크기는 출력으로 확인해야 합니다. 왜야하면 이 명령은설치관리자의 글꼴에 의존하기 때문에 \R{aaddbrandingimage}{AddBrandingImage} 명령을 사용하기 이전에 \R{asetfont}{SetFont} 명령을 사용해야 합니다. 기본 padding 값은 2 입니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="7">
             <Src CodePage="1252">
               <Data>\R{aaddbrandingimage}{AddBrandingImage} only adds a placeholder for an image. To set the image itself on runtime, use \R{setbrandingimage}{SetBrandingImage}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Changed="2013-07-28T21-07-09" Translated="2013-07-28T21-07-09" State="Validated">
+              <cur>
+                <Data>\R{aaddbrandingimage}{AddBrandingImage} 는 이미지를 위한 공간을 확보할 뿐입니다. 실행시에 이미지를 설정하려면 \R{setbrandingimage}{SetBrandingImage}를 사용하세요.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="8">
             <Src CodePage="1252">
               <Data>\c AddBrandingImage left 100</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T20-57-35" State="Validated"/>
           </Vl>
           <Vl Index="9">
             <Src CodePage="1252">
               <Data>\c AddBrandingImage right 50</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T20-57-35" State="Validated"/>
           </Vl>
           <Vl Index="10">
             <Src CodePage="1252">
               <Data>\c AddBrandingImage top 20</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T20-57-35" State="Validated"/>
           </Vl>
           <Vl Index="11">
             <Src CodePage="1252">
               <Data>\c AddBrandingImage bottom 35</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T20-57-35" State="Validated"/>
           </Vl>
           <Vl Index="12">
             <Src CodePage="1252">
               <Data>\c AddBrandingImage left 100 5</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T20-57-35" State="Validated"/>
           </Vl>
           <Vl Index="13">
             <Src CodePage="1252">
               <Data>\S2{aallowrootdirinstall} AllowRootDirInstall</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T21-07-14" State="Validated"/>
           </Vl>
           <Vl Index="14">
             <Src CodePage="1252">
               <Data>\c true|\\&lt;b\\&gt;false\\&lt;/b\\&gt;</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T21-07-19" State="Validated"/>
           </Vl>
           <Vl Index="15">
             <Src CodePage="1252">
               <Data>Controls whether or not installs are enabled to the root directory of a drive, or directly into a network share. Set to 'true' to change the safe behavior, which prevents users from selecting C:\\ or \\\\Server\\Share as an install (and later on, uninstall) directory. For additional directory selection page customizability, see \R{onverifyinstdir}{.onVerifyInstDir}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Changed="2013-07-28T21-10-48" Translated="2013-07-28T21-10-48" State="Validated">
+              <cur>
+                <Data>설치관리자가 드라이브의 루트 디렉토리 또는 네트워크 공유 장소에 바로 설치할 수 있도록 허용합니다. 설치 또는 제거 디렉토리로 C:\\ 또는 \\\\Server\\Share 와 같은 선택을 하지 못하게 하는 안전한 행동을 변경하려면 'true' 로 설정합니다. 추가로 디렉토리 페이지를 조절하려면 \R{onverifyinstdir}{.onVerifyInstDir} 를 참조하세요.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="16">
             <Src CodePage="1252">
               <Data>\S2{aautoclosewindow} AutoCloseWindow</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T21-10-49" State="Validated"/>
           </Vl>
           <Vl Index="17">
             <Src CodePage="1252">
               <Data>\c true|\\&lt;b\\&gt;false\\&lt;/b\\&gt;</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T21-07-19" State="Validated"/>
           </Vl>
           <Vl Index="18">
             <Src CodePage="1252">
               <Data>Sets whether or not the install window automatically closes when completed. This is overrideable from a section using \R{setautoclose}{SetAutoClose}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Changed="2013-07-28T21-11-40" Translated="2013-07-28T21-11-40" State="Validated">
+              <cur>
+                <Data>설치가 종료되면 설치 창이 자동으로 닫힐 지 여부를 결정합니다. \R{setautoclose}{SetAutoClose} 명령으로 재설정 할 수 있습니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="19">
             <Src CodePage="1252">
               <Data>\S2{abgfont} BGFont</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T21-11-42" State="Validated"/>
           </Vl>
           <Vl Index="20">
             <Src CodePage="1252">
               <Data>\c [font_face [height [weight] [/ITALIC] [/UNDERLINE] [/STRIKE]]]</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T21-11-43" State="Validated"/>
           </Vl>
           <Vl Index="21">
             <Src CodePage="1252">
               <Data>Specifies the font used to show the text on the background gradient. To set the color use \R{abggradient}{BGGradient}. If no parameters are specified, the default font will be used. The default font is bold and italic Times New Roman.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Changed="2013-07-28T21-12-13" Translated="2013-07-28T21-12-13" State="Validated">
+              <cur>
+                <Data>변하는(gradient) 배경 에 출력되는 문자열에 사용될 글꼴을 설정합니다. \R{abggradient}{BGGradient} 를 사용해서 색상을 설정합니다. 아무 매개변수도 지정하지 않으면 기본 글꼴을 사용합니다. 기본글꼴은 굵은 글씨, 기울임, Time New Roman 입니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="22">
             <Src CodePage="1252">
               <Data>\S2{abggradient} BGGradient</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T21-12-14" State="Validated"/>
           </Vl>
           <Vl Index="23">
             <Src CodePage="1252">
               <Data>\c [\\&lt;b\\&gt;off\\&lt;/b\\&gt;|(topc botc [textcolor|notext])]</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T21-12-15" State="Validated"/>
           </Vl>
           <Vl Index="24">
             <Src CodePage="1252">Specifies whether or not to use a gradient background window. If 'off', the installer will not show a background window, if no parameters are specified, the default black to blue gradient is used, and otherwise the top_color or bottom_color are used to make a gradient. Top_color and bottom_color are specified using the form RRGGBB (in hexadecimal, as in HTML, only minus the leading '#', since # can be used for comments). 'textcolor' can be specified as well, or 'notext' can be specified to turn the big background text off.</Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Changed="2013-07-28T21-13-47" Translated="2013-07-28T21-13-47" State="Validated">
+              <cur>변하는(gradient) 배경 윈도의 사용 여부를 설정합니다. 'off' 로 설정하면 배경 윈도를 출력하지 않습니다. 아무 매개변수도 지정하지 않으면 기본으로 검정색에서 파란색으로 변하는 변화를 사용합니다. 변화를 만들려면 top_color 또는 bottom_color 를 사용합니다. 두 개의 매개변수는 RRGGBB(16진수, #을 뺀 HTML형식, #은 주석으로 처리됩니다) 형식으로 설정합니다. 'textcolor' 또는 'notext' 는 커다란 배경 글씨의 출력 여부를 설정합니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="25">
             <Src CodePage="1252">
               <Data>\S2{abrandingtext} BrandingText</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T21-12-22" State="Validated"/>
           </Vl>
           <Vl Index="26">
             <Src CodePage="1252">
               <Data>\c /TRIM(LEFT|RIGHT|CENTER) text</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T21-12-23" State="Validated"/>
           </Vl>
           <Vl Index="27">
             <Src CodePage="1252">Sets the text that is shown (by default it is 'Nullsoft Install System vX.XX') at the bottom of the install window. Setting this to an empty string ("") uses the default; to set the string to blank, use " " (a space). If it doesn't matter to you, leave it the default so that everybody can know why the installer didn't suck. heh. Use /TRIMLEFT, /TRIMRIGHT or /TRIMCENTER to trim down the size of the control to the size of the string.</Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Changed="2013-07-28T21-14-43" Translated="2013-07-28T21-14-43" State="Validated">
+              <cur>설치 윈도 하단에 표시(기본으로 'Nullsoft Install System vX.XX') 되는 문자열을 설정합니다. 빈문자열을 설정하면 기본값을 사용합니다; 공백 문자열을 설정하려면 " "(띄어쓰기) 를 사용합니다. 크게 신경 쓰지 않으면 그냥 기본으로 놔두고 사람들이 왜 인스톨러가 이리 좋은지 알게 하는 것도 좋다. 헤. /TRIMLEFT, /TRIMRIGHT, TRIMCENTER 는 문자열의 크기 만큼 컨트롤의 어느 부분을 잘라낼 지 설정합니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="28">
             <Src CodePage="1252">
               <Data>Accepts variables. If variables are used, they must be initialized on \R{oninit}{.onInit}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Changed="2013-07-28T21-15-45" Translated="2013-07-28T21-15-45" State="Validated">
+              <cur>
+                <Data>변수를 사용할 수 있으며, 변수를 사용하려면 반드시 \R{oninit}{.onInit} 함수에서 초기화해야 합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="29">
             <Src CodePage="1252">
               <Data>\S2{acaption} Caption</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T21-15-46" State="Validated"/>
           </Vl>
           <Vl Index="30">
             <Src CodePage="1252">
               <Data>\c caption</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T21-15-47" State="Validated"/>
           </Vl>
           <Vl Index="31">
             <Src CodePage="1252">
               <Data>When used outside a \R{pageex}{PageEx} block: Sets the text for the titlebar of the installer. the By default, it is 'Name Setup', where Name is specified with the \R{aname}{Name} instruction. You can, however, override it with 'MyApp Installer' or whatever. If you specify an empty string (""), the default will be used (you can however specify " " to achieve a blank string).</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Changed="2013-07-28T21-16-35" Translated="2013-07-28T21-16-35" State="Validated">
+              <cur>
+                <Data>\R{pageex}{PageEx} 블럭 외부에서 사용할 때: 인스톨러의 제목 표시줄의 문자열을 설정합니다. 기본값은 \R{aname}{Name} 명령에서 설정한 Name 값을 이용한 'Name Setup' 형태입니다. 물론, 'MyApp Installer' 와 같은 다른 이름으로 변경할 수 있습니다. 빈문자열을 설정하면 기본값을 사용하며 공백 문자열을 설정하려면 " "(띄어쓰기) 를 사용합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="32">
             <Src CodePage="1252">
               <Data>When used inside a \R{pageex}{PageEx} block: Sets the subcaption of the current page.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Changed="2013-07-28T21-16-44" Translated="2013-07-28T21-16-44" State="Validated">
+              <cur>
+                <Data>\R{pageex}{PageEx} 블럭 내부에서 사용할 때: 현재 페이지의 하위 표제를 설정합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="33">
             <Src CodePage="1252">
               <Data>Accepts variables. If variables are used, they must be initialized on \R{oninit}{.onInit}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Changed="2013-07-28T21-15-45" Translated="2013-07-28T21-15-45" State="Validated">
+              <cur>
+                <Data>변수를 사용할 수 있으며, 변수를 사용하려면 반드시 \R{oninit}{.onInit} 함수에서 초기화해야 합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="34">
             <Src CodePage="1252">
               <Data>\S2{achangeui} ChangeUI</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T21-16-47" State="Validated"/>
           </Vl>
           <Vl Index="35">
             <Src CodePage="1252">
               <Data>\c dialog ui_file.exe</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T21-16-47" State="Validated"/>
           </Vl>
           <Vl Index="36">
             <Src CodePage="1252">
@@ -2188,7 +2244,7 @@
             <Src CodePage="1252">
               <Data>\c caption</Data>
             </Src>
-            <Trg Created="2013-07-28T20-25-51"/>
+            <Trg Created="2013-07-28T20-25-51" Translated="2013-07-28T21-15-47" State="Validated"/>
           </Vl>
           <Vl Index="215">
             <Src CodePage="1252">Sets what the titlebars of the uninstaller will display. By default, it is 'Name Uninstall', where Name is specified with the Name command. You can, however, override it with 'MyApp uninstaller' or whatever. If you specify an empty string (""), the default will be used (you can however specify " " to achieve a blank string).</Src>
@@ -2315,7 +2371,6 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
-        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="1042" Enabled="1"/>
         </TargetEncoding>
@@ -6307,7 +6362,7 @@
             <Src CodePage="1252">
               <Data>\c true|\\&lt;b\\&gt;false\\&lt;/b\\&gt;</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-07-28T21-07-19" State="Validated"/>
           </Vl>
           <Vl Index="53">
             <Src CodePage="1252">
@@ -28526,7 +28581,7 @@
             <Src CodePage="1252">
               <Data>\b Fixed a crash in CResourceEditor when adding resources to a PE that already contains named resources</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01" Changed="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01"/>
           </Vl>
           <Vl Index="738">
             <Src CodePage="1252">
@@ -37376,7 +37431,6 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
-        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -40019,7 +40073,6 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
-        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -57867,7 +57920,7 @@
                               <Data>UninstPage custom un.FunctionName ;Custom page\r\n</Data>
                               <Data>!insertmacro MUI_UNPAGE_INSTFILES\r\n</Data>
                             </Src>
-                            <Trg Created="2013-07-28T20-48-35" Changed="2013-07-28T20-48-35"/>
+                            <Trg Created="2013-07-28T20-48-35"/>
                           </Vl>
                         </Cl>
                         <Vl ReadOnly="1" Name="text" Class="HTML_TEXT_NODE">
@@ -59116,7 +59169,7 @@
         <HostAppParameters/>
         <WorkingDirectoryName>&lt;SrcPath&gt;</WorkingDirectoryName>
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
-          <LangID Enabled="1">9</LangID>
+          <LangID>9</LangID>
         </LanguagesToExtract>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
@@ -64421,7 +64474,7 @@
                                 <Data>\r\n</Data>
                                 <Data>\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20\0x20</Data>
                               </Src>
-                              <Trg Created="2013-07-28T20-49-10" Changed="2013-07-28T20-49-10"/>
+                              <Trg Created="2013-07-28T20-49-10"/>
                             </Vl>
                             <Cl Name="p" Class="HTML_ELEMENT_NODE">
                               <Vl ReadOnly="1" Name="text" Class="HTML_TEXT_NODE">
@@ -69257,7 +69310,7 @@
         <HostAppParameters/>
         <WorkingDirectoryName>&lt;SrcPath&gt;</WorkingDirectoryName>
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
-          <LangID Enabled="1">9</LangID>
+          <LangID>9</LangID>
         </LanguagesToExtract>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
