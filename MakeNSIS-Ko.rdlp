@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <RadialixLocalizerProject>
   <Header FileVersion="19" Guid="{AC923C1B-6FA0-4024-86BF-2B66D7E7AB12}"/>
-  <IDESettings ProjectItemPath="0.jumps.but (jumps.but)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
-    <StringTableSettings FocusedValueID="#0.#20" SortDirection="0" SortedColumnIndex="-1"/>
+  <IDESettings ProjectItemPath="0.file.but (file.but)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
+    <StringTableSettings FocusedValueID="#0.#119" SortDirection="0" SortedColumnIndex="-1"/>
     <TextTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
     <AccelTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
     <ImageTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
@@ -15,14 +15,14 @@
     </Languages>
     <Info>
       <CreatedBy Date="2013-07-28T20-16-34">Radialix Version 3.00.00  Build 486</CreatedBy>
-      <ModifiedBy Date="2013-08-02T16-17-49">Radialix Version 3.00.00  Build 486</ModifiedBy>
+      <ModifiedBy Date="2013-08-02T17-04-50">Radialix Version 3.00.00  Build 486</ModifiedBy>
       <Author>DevTester</Author>
       <Organization>My House</Organization>
       <Comment/>
       <WebSite/>
       <ContactEMail/>
       <Copyright/>
-      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="220" AutoIncrementBuildNumber="1"/>
+      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="266" AutoIncrementBuildNumber="1"/>
     </Info>
     <Publisher>
       <ApplicationName>&lt;Title&gt; &lt;WinCode&gt;</ApplicationName>
@@ -9371,41 +9371,51 @@
             <Src CodePage="1252">
               <Data>\S1{fileinst} File Instructions</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T16-51-41" Translated="2013-08-02T16-51-41" State="Validated">
+              <cur>
+                <Data>\S1{fileinst} 파일 명령</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="1">
             <Src CodePage="1252">
               <Data>\S2{FileClose} FileClose</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-51-41" State="Validated"/>
           </Vl>
           <Vl Index="2">
             <Src CodePage="1252">
               <Data>\c handle</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-51-42" State="Validated"/>
           </Vl>
           <Vl Index="3">
             <Src CodePage="1252">
               <Data>Closes a file handle opened with \R{FileOpen}{FileOpen}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T16-51-54" Translated="2013-08-02T16-51-54" State="Validated">
+              <cur>
+                <Data>\R{FileOpen}{FileOpen} 명령으로 열린 파일 핸들을 닫습니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="4">
             <Src CodePage="1252">
               <Data>\S2{FileOpen} FileOpen</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-51-54" State="Validated"/>
           </Vl>
           <Vl Index="5">
             <Src CodePage="1252">
               <Data>\c user_var(handle output) filename openmode</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-51-55" State="Validated"/>
           </Vl>
           <Vl Index="6">
             <Src CodePage="1252">Opens a file named "filename", and sets the handle output variable with the handle. The openmode should be one of "r" (read) "w" (write, all contents of file are destroyed) or "a" (append, meaning opened for both read and write, contents preserved). In all open modes, the file pointer is placed at the beginning of the file. If the file cannot be opened, the handle output is set to empty, and the error flag is set.</Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T16-51-59" Translated="2013-08-02T16-51-59" State="Validated">
+              <cur>"filename" 파일을 열고 출력변수에 핸들을 설정합니다. openmode 는 r(읽기), w(쓰기, 파일의 모든 내용이 파괴됨), a(추가, 읽기/쓰기 가능, 내용 보존) 중의 하나여야 합니다. 모든 모드에서 파일 포인터는 파일의 시작부분에 위치합니다. 파일을 열 수 없으면 출력변수는 빈 문자열로 설정되고 에러 플래그가 설정됩니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="7">
             <Src CodePage="1252">
@@ -9421,669 +9431,729 @@
             <Src CodePage="1252">
               <Data>\c FileOpen $0 $INSTDIR\file.dat r</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-52-25" State="Validated"/>
           </Vl>
           <Vl Index="9">
             <Src CodePage="1252">
               <Data>\c FileClose $0</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-52-26" State="Validated"/>
           </Vl>
           <Vl Index="10">
             <Src CodePage="1252">
               <Data>\S2{FileRead} FileRead</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-52-27" State="Validated"/>
           </Vl>
           <Vl Index="11">
             <Src CodePage="1252">
               <Data>\c handle user_var(output) [maxlen]</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-52-28" State="Validated"/>
           </Vl>
           <Vl Index="12">
             <Src CodePage="1252">
               <Data>Reads a string (ANSI characters) from a file opened with \R{FileOpen}{FileOpen}. The string is read until either a newline (or carriage return newline pair) occurs, or until a null byte is read, or until maxlen is met (if specified). By default, strings are limited to 1024 characters (a special build with larger NSIS_MAX_STRLEN can be compiled or downloaded). If the end of file is read and no more data is available, the output string will be empty, and the error flag will be set.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T16-53-02" Translated="2013-08-02T16-53-02" State="Validated">
+              <cur>
+                <Data>\R{FileOpen}{FileOpen} 으로 연 파일에서 문자열(ANSI 문자열)을 읽어옵니다. 문자열은 개행이 일어나거나(또는 개행과 짝을 이루는 캐리지 리턴) 널문자를 읽거나 maxlen 만큼 읽을때 까지(maxlen 을 지정했을 때) 읽습니다. 기본값으로 문자열의 길이는 1024글자로 제한됩니다( 더 큰 NSIS_MAX_STRLEN 값을 가지는 특수 빌드를 내려받거나 컴파일 할 수 있습니다). 문자열은 1024글자의 제한을 가지고 있습니다. 읽었을 때 파일의 끝이고 더 이상 사용가능한 데이터가 없으면 출력 문자열은 빈 문자열로 설정되고 에러 플래그가 설정됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="13">
             <Src CodePage="1252">
               <Data>\NsisWarnBlockContainerBegin</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-18" State="Validated"/>
           </Vl>
           <Vl Index="14">
             <Src CodePage="1252">
               <Data>\NsisBlockHeaderExeheadU</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-19" State="Validated"/>
           </Vl>
           <Vl Index="15">
             <Src CodePage="1252">
               <Data>\#{This is a bug in exehead but it is probably a good idea to document it here...}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-20" State="Validated"/>
           </Vl>
           <Vl Index="16">
             <Src CodePage="1252">
               <Data>The \R{intro-unicode}{Unicode} version can only read text encoded with a single byte character set! The \NsisACPcp is used during the conversion.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T16-56-23" Translated="2013-08-02T16-56-23" State="Validated">
+              <cur>
+                <Data>\R{intro-unicode}{Unicode} 버전은 SBCS 로 문자열을 읽어오며 변환하는 동안 \NsisACPcp 가 사용됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="17">
             <Src CodePage="1252">
               <Data>\NsisWarnBlockContainerEnd</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-43" State="Validated"/>
           </Vl>
           <Vl Index="18">
             <Src CodePage="1252">
               <Data>\c ClearErrors</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-44" State="Validated"/>
           </Vl>
           <Vl Index="19">
             <Src CodePage="1252">
               <Data>\c FileOpen $0 $INSTDIR\file.dat r</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-52-25" State="Validated"/>
           </Vl>
           <Vl Index="20">
             <Src CodePage="1252">
               <Data>\c IfErrors done</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-45" State="Validated"/>
           </Vl>
           <Vl Index="21">
             <Src CodePage="1252">
               <Data>\c FileRead $0 $1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-45" State="Validated"/>
           </Vl>
           <Vl Index="22">
             <Src CodePage="1252">
               <Data>\c DetailPrint $1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-46" State="Validated"/>
           </Vl>
           <Vl Index="23">
             <Src CodePage="1252">
               <Data>\c FileClose $0</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-52-26" State="Validated"/>
           </Vl>
           <Vl Index="24">
             <Src CodePage="1252">
               <Data>\c done:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-46" State="Validated"/>
           </Vl>
           <Vl Index="25">
             <Src CodePage="1252">
               <Data>\S2{FileReadUTF16LE} FileReadUTF16LE</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-56-25" State="Validated"/>
           </Vl>
           <Vl Index="26">
             <Src CodePage="1252">
               <Data>\c handle user_var(output) [maxlen]</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-52-28" State="Validated"/>
           </Vl>
           <Vl Index="27">
             <Src CodePage="1252">
               <Data>\NsisFuncReqU</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-56-26" State="Validated"/>
           </Vl>
           <Vl Index="28">
             <Src CodePage="1252">
               <Data>Reads a string (UTF-16LE characters) from a file opened with \R{FileOpen}{FileOpen}. The string is read until either a newline (or carriage return newline pair) occurs, or until a null wide-character is read, or until maxlen is met (if specified). By default, strings are limited to 1024 characters (a special build with larger NSIS_MAX_STRLEN can be compiled or downloaded). If the end of file is read and no more data is available, the output string will be empty, and the error flag will be set.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T16-56-50" Translated="2013-08-02T16-56-50" State="Validated">
+              <cur>
+                <Data>\R{FileOpen}{FileOpen} 으로 연 파일에서 문자열(UTF16LE 문자열)을 읽어옵니다. 문자열은 개행이 일어나거나(또는 개행과 짝을 이루는 캐리지 리턴) 널문자를 읽거나 maxlen 만큼 읽을때 까지(maxlen 을 지정했을 때) 읽습니다. 기본값으로 문자열의 길이는 1024글자로 제한됩니다( 더 큰 NSIS_MAX_STRLEN 값을 가지는 특수 빌드를 내려받거나 컴파일 할 수 있습니다). 문자열은 1024글자의 제한을 가지고 있습니다. 읽었을 때 파일의 끝이고 더 이상 사용가능한 데이터가 없으면 출력 문자열은 빈 문자열로 설정되고 에러 플래그가 설정됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="29">
             <Src CodePage="1252">
               <Data>\c ClearErrors</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-44" State="Validated"/>
           </Vl>
           <Vl Index="30">
             <Src CodePage="1252">
               <Data>\c FileOpen $0 $INSTDIR\file.dat r</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-52-25" State="Validated"/>
           </Vl>
           <Vl Index="31">
             <Src CodePage="1252">
               <Data>\c IfErrors done</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-45" State="Validated"/>
           </Vl>
           <Vl Index="32">
             <Src CodePage="1252">
               <Data>\c FileReadUTF16LE $0 $1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-56-30" State="Validated"/>
           </Vl>
           <Vl Index="33">
             <Src CodePage="1252">
               <Data>\c DetailPrint $1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-46" State="Validated"/>
           </Vl>
           <Vl Index="34">
             <Src CodePage="1252">
               <Data>\c FileClose $0</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-52-26" State="Validated"/>
           </Vl>
           <Vl Index="35">
             <Src CodePage="1252">
               <Data>\c done:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-46" State="Validated"/>
           </Vl>
           <Vl Index="36">
             <Src CodePage="1252">
               <Data>\S2{FileReadByte} FileReadByte</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-56-53" State="Validated"/>
           </Vl>
           <Vl Index="37">
             <Src CodePage="1252">
               <Data>\c handle user_var(output)</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-56-53" State="Validated"/>
           </Vl>
           <Vl Index="38">
             <Src CodePage="1252">
               <Data>Reads a byte from a file opened with \R{FileOpen}{FileOpen}. The byte is stored in the output as an integer (0-255). If the end of file is read and no more data is available, the output will be empty, and the error flag will be set.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T16-57-20" Translated="2013-08-02T16-57-20" State="Validated">
+              <cur>
+                <Data>\R{FileOpen}{FileOpen} 으로 연 파일에서 1 바이트를 읽어옵니다. 바이트는 출력 변수에 정수(0-255)로서 저장됩니다. 읽었을 때 파일의 끝이고 더 이상 사용가능한 데이터가 없으면 출력 문자열은 빈 문자열로 설정되고 에러 플래그가 설정됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="39">
             <Src CodePage="1252">
               <Data>\c ClearErrors</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-44" State="Validated"/>
           </Vl>
           <Vl Index="40">
             <Src CodePage="1252">
               <Data>\c FileOpen $0 $INSTDIR\file.dat r</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-52-25" State="Validated"/>
           </Vl>
           <Vl Index="41">
             <Src CodePage="1252">
               <Data>\c IfErrors done</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-45" State="Validated"/>
           </Vl>
           <Vl Index="42">
             <Src CodePage="1252">
               <Data>\c FileReadByte $0 $1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-57-20" State="Validated"/>
           </Vl>
           <Vl Index="43">
             <Src CodePage="1252">
               <Data>\c FileReadByte $0 $2</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-57-20" State="Validated"/>
           </Vl>
           <Vl Index="44">
             <Src CodePage="1252">
               <Data>\c DetailPrint "$1 $2"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-57-21" State="Validated"/>
           </Vl>
           <Vl Index="45">
             <Src CodePage="1252">
               <Data>\c FileClose $0</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-52-26" State="Validated"/>
           </Vl>
           <Vl Index="46">
             <Src CodePage="1252">
               <Data>\c done:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-46" State="Validated"/>
           </Vl>
           <Vl Index="47">
             <Src CodePage="1252">
               <Data>\S2{FileReadWord} FileReadWord</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-57-25" State="Validated"/>
           </Vl>
           <Vl Index="48">
             <Src CodePage="1252">
               <Data>\c handle user_var(output)</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-56-53" State="Validated"/>
           </Vl>
           <Vl Index="49">
             <Src CodePage="1252">
               <Data>\NsisFuncReqU</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-56-26" State="Validated"/>
           </Vl>
           <Vl Index="50">
             <Src CodePage="1252">
               <Data>Reads a word (2-bytes) from a file opened with \R{FileOpen}{FileOpen}. The word is stored in the output as an integer (0-65535). If the end of file is read and no more data is available, the output will be empty, and the error flag will be set.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T16-58-09" Translated="2013-08-02T16-58-09" State="Validated">
+              <cur>
+                <Data>\R{FileOpen}{FileOpen} 으로 연 파일에서 워드(2Byte)를 읽어옵니다. 워드는 출력 변수에 정수(0-65535)로서 저장됩니다. 읽었을 때 파일의 끝이고 더 이상 사용가능한 데이터가 없으면 출력 문자열은 빈 문자열로 설정되고 에러 플래그가 설정됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="51">
             <Src CodePage="1252">
               <Data>\c ClearErrors</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-44" State="Validated"/>
           </Vl>
           <Vl Index="52">
             <Src CodePage="1252">
               <Data>\c FileOpen $0 $INSTDIR\file.dat r</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-52-25" State="Validated"/>
           </Vl>
           <Vl Index="53">
             <Src CodePage="1252">
               <Data>\c IfErrors done</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-45" State="Validated"/>
           </Vl>
           <Vl Index="54">
             <Src CodePage="1252">
               <Data>\c FileReadWord $0 $1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-58-10" State="Validated"/>
           </Vl>
           <Vl Index="55">
             <Src CodePage="1252">
               <Data>\c FileReadWord $0 $2</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-58-10" State="Validated"/>
           </Vl>
           <Vl Index="56">
             <Src CodePage="1252">
               <Data>\c DetailPrint "$1 $2"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-57-21" State="Validated"/>
           </Vl>
           <Vl Index="57">
             <Src CodePage="1252">
               <Data>\c FileClose $0</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-52-26" State="Validated"/>
           </Vl>
           <Vl Index="58">
             <Src CodePage="1252">
               <Data>\c done:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-46" State="Validated"/>
           </Vl>
           <Vl Index="59">
             <Src CodePage="1252">
               <Data>\S2{FileSeek} FileSeek</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-58-12" State="Validated"/>
           </Vl>
           <Vl Index="60">
             <Src CodePage="1252">
               <Data>\c handle offset [mode] [user_var(new position)]</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-58-12" State="Validated"/>
           </Vl>
           <Vl Index="61">
             <Src CodePage="1252">
               <Data>Seeks a file opened with \R{FileOpen}{FileOpen}. If mode is omitted or specified as SET, the file is positioned to "offset", relative to the beginning of the file. If mode is specified as CUR, then the file is positioned to "offset", relative to the current file position. If mode is specified as END, then the file is positioned to "offset", relative to the end of the file. If the final parameter "new position" is specified, the new file position will be stored to that variable.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T16-58-33" Translated="2013-08-02T16-58-33" State="Validated">
+              <cur>
+                <Data>\R{FileOpen}{FileOpen} 으로 연 파일을 검색합니다. mode 가 생략되거나 SET 으로 설정되면 파일은 파일의 처음부터 "offset" 만큼 이동합니다. mode 가 CUR 로 설정되면 파일의 현재 위치에서 "offset" 만큼 이동합니다. mode 가 END 로 설정되면 파일의 끝부터 "offset" 만큼 이동합니다. 마지막 매개변수 "new position" 이 설정되면 새로운 파일 위치는 지정한 변수에 저장됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="62">
             <Src CodePage="1252">
               <Data>\c ClearErrors</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-44" State="Validated"/>
           </Vl>
           <Vl Index="63">
             <Src CodePage="1252">
               <Data>\c FileOpen $0 $INSTDIR\file.dat r</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-52-25" State="Validated"/>
           </Vl>
           <Vl Index="64">
             <Src CodePage="1252">
               <Data>\c IfErrors done</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-45" State="Validated"/>
           </Vl>
           <Vl Index="65">
             <Src CodePage="1252">
               <Data>\c FileSeek $0 -5 END</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-59-00" State="Validated"/>
           </Vl>
           <Vl Index="66">
             <Src CodePage="1252">
               <Data>\c FileRead $0 $1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-45" State="Validated"/>
           </Vl>
           <Vl Index="67">
             <Src CodePage="1252">
               <Data>\c DetailPrint $1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-46" State="Validated"/>
           </Vl>
           <Vl Index="68">
             <Src CodePage="1252">
               <Data>\c FileClose $0</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-52-26" State="Validated"/>
           </Vl>
           <Vl Index="69">
             <Src CodePage="1252">
               <Data>\c done:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-46" State="Validated"/>
           </Vl>
           <Vl Index="70">
             <Src CodePage="1252">
               <Data>\S2{FileWrite} FileWrite</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-59-02" State="Validated"/>
           </Vl>
           <Vl Index="71">
             <Src CodePage="1252">
               <Data>\c handle string</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-59-03" State="Validated"/>
           </Vl>
           <Vl Index="72">
             <Src CodePage="1252">
               <Data>Writes an ANSI string to a file opened with \R{FileOpen}{FileOpen}. If an error occurs writing, the error flag will be set.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T16-59-27" Translated="2013-08-02T16-59-27" State="Validated">
+              <cur>
+                <Data>\R{FileOpen}{FileOpen} 으로 연 파일에 ANSI 문자열을 기록합니다. 쓰는 중에 에러가 발생하면 에러 플래그가 설정됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="73">
             <Src CodePage="1252">
               <Data>(If you are building a \R{intro-unicode}{Unicode installer}, the function converts the string to ANSI/MBCS. The \NsisACPcp is used during the conversion)</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T17-00-20" Translated="2013-08-02T17-00-20" State="Validated">
+              <cur>
+                <Data>(만약 \R{intro-unicode}{Unicode installer} 를 빌드한다면, 함수는 문자열을 ANSI/MBCS 로 변환합니다. 변환하는 동안에는 \NsisACPcp 가 사용됩니다)</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="74">
             <Src CodePage="1252">
               <Data>\c ClearErrors</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-44" State="Validated"/>
           </Vl>
           <Vl Index="75">
             <Src CodePage="1252">
               <Data>\c FileOpen $0 $INSTDIR\file.dat w</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-00-20" State="Validated"/>
           </Vl>
           <Vl Index="76">
             <Src CodePage="1252">
               <Data>\c IfErrors done</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-45" State="Validated"/>
           </Vl>
           <Vl Index="77">
             <Src CodePage="1252">
               <Data>\c FileWrite $0 "some text"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-00-21" State="Validated"/>
           </Vl>
           <Vl Index="78">
             <Src CodePage="1252">
               <Data>\c FileClose $0</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-52-26" State="Validated"/>
           </Vl>
           <Vl Index="79">
             <Src CodePage="1252">
               <Data>\c done:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-46" State="Validated"/>
           </Vl>
           <Vl Index="80">
             <Src CodePage="1252">
               <Data>\S2{FileWriteUTF16LE} FileWriteUTF16LE</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-00-25" State="Validated"/>
           </Vl>
           <Vl Index="81">
             <Src CodePage="1252">
               <Data>\c handle string</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-59-03" State="Validated"/>
           </Vl>
           <Vl Index="82">
             <Src CodePage="1252">
               <Data>\NsisFuncReqU</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-56-26" State="Validated"/>
           </Vl>
           <Vl Index="83">
             <Src CodePage="1252">
               <Data>Writes a Unicode (UTF-16LE) string to a file opened with \R{FileOpen}{FileOpen}. If an error occurs writing, the error flag will be set.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T17-00-39" Translated="2013-08-02T17-00-39" State="Validated">
+              <cur>
+                <Data>\R{FileOpen}{FileOpen} 으로 연 파일에 유니코드(UTF16LE) 문자열을 기록합니다. 쓰는 중에 에러가 발생하면 에러 플래그가 설정됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="84">
             <Src CodePage="1252">
               <Data>\c ClearErrors</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-44" State="Validated"/>
           </Vl>
           <Vl Index="85">
             <Src CodePage="1252">
               <Data>\c FileOpen $0 $INSTDIR\file.dat w</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-00-20" State="Validated"/>
           </Vl>
           <Vl Index="86">
             <Src CodePage="1252">
               <Data>\c IfErrors done</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-45" State="Validated"/>
           </Vl>
           <Vl Index="87">
             <Src CodePage="1252">
               <Data>\c FileWriteUTF16LE $0 "some text"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-00-41" State="Validated"/>
           </Vl>
           <Vl Index="88">
             <Src CodePage="1252">
               <Data>\c FileClose $0</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-52-26" State="Validated"/>
           </Vl>
           <Vl Index="89">
             <Src CodePage="1252">
               <Data>\c done:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-46" State="Validated"/>
           </Vl>
           <Vl Index="90">
             <Src CodePage="1252">
               <Data>\S2{FileWriteByte} FileWriteByte</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-00-44" State="Validated"/>
           </Vl>
           <Vl Index="91">
             <Src CodePage="1252">
               <Data>\c handle string</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-59-03" State="Validated"/>
           </Vl>
           <Vl Index="92">
             <Src CodePage="1252">
               <Data>Writes the integer interpretation of 'string' to a file opened with \R{FileOpen}{FileOpen}. Of course you can enter the integer value directly. The following code writes a "Carriage Return / Line Feed" - Enter to the file.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T17-01-12" Translated="2013-08-02T17-01-12" State="Validated">
+              <cur>
+                <Data>\R{FileOpen}{FileOpen} 으로 연 파일에 '문자'의 정수 표현 값을 기록합니다. 물론, 정수 값을 직접 넣을 수도 있습니다. 다음 코드는 파일에 "캐리지 리턴 / 라인 피드" 문자를 기록합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="93">
             <Src CodePage="1252">
               <Data>\c FileWriteByte file_handle "13"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-01-12" State="Validated"/>
           </Vl>
           <Vl Index="94">
             <Src CodePage="1252">
               <Data>\c FileWriteByte file_handle "10"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-01-13" State="Validated"/>
           </Vl>
           <Vl Index="95">
             <Src CodePage="1252">If an error occurs while writing, the error flag will be set. Note that the low byte of the integer is used, i.e. writing 256 is the same as writing 0, etc.</Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T17-01-36" Translated="2013-08-02T17-01-36" State="Validated">
+              <cur>기록하는 중에 에러가 발생하면 에러 플래그가 설정됩니다. 알림 : 사용되는 정수는 하위 바이트입니다. 예, 256을 기록하면 이 값은 0과 같은 값이 기록됩니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="96">
             <Src CodePage="1252">
               <Data>\S2{FileWriteWord} FileWriteWord</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-01-40" State="Validated"/>
           </Vl>
           <Vl Index="97">
             <Src CodePage="1252">
               <Data>\c handle string</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-59-03" State="Validated"/>
           </Vl>
           <Vl Index="98">
             <Src CodePage="1252">
               <Data>\NsisFuncReqU</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-56-26" State="Validated"/>
           </Vl>
           <Vl Index="99">
             <Src CodePage="1252">
               <Data>Writes the integer interpretation of 'string' as a WORD (2-bytes, range: 0-65535) to a file opened with \R{FileOpen}{FileOpen}. Of course you can enter the integer value directly. The following code writes a "Carriage Return / Line Feed" - Enter to the file.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T17-02-33" Translated="2013-08-02T17-02-33" State="Validated">
+              <cur>
+                <Data>\R{FileOpen}{FileOpen} 으로 연 파일에 '문자'의 정수표현을 워드(2byte) 값으로 기록합니다. 물론, 정수 값을 직접 넣을 수도 있습니다. 다음 코드는 파일에 "캐리지 리턴 / 라인 피드" 문자를 기록합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="100">
             <Src CodePage="1252">
               <Data>\c FileWriteWord file_handle "13"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-01-46" State="Validated"/>
           </Vl>
           <Vl Index="101">
             <Src CodePage="1252">
               <Data>\c FileWriteWord file_handle "10"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-01-46" State="Validated"/>
           </Vl>
           <Vl Index="102">
             <Src CodePage="1252">If an error occurs while writing, the error flag will be set. Note that the low WORD of the integer is used, i.e. writing 65536 is the same as writing 0, etc.</Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T17-02-53" Translated="2013-08-02T17-02-53" State="Validated">
+              <cur>기록하는 중에 에러가 발생하면 에러 플래그가 설정됩니다. 알림 : 사용되는 정수는 하위 워드입니다. 예, 65536을 기록하면 이 값은 0과 같은 값이 기록됩니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="103">
             <Src CodePage="1252">
               <Data>\S2{FindClose} FindClose</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-02-54" State="Validated"/>
           </Vl>
           <Vl Index="104">
             <Src CodePage="1252">
               <Data>\c handle</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-51-42" State="Validated"/>
           </Vl>
           <Vl Index="105">
             <Src CodePage="1252">
               <Data>Closes a search opened with \R{FindFirst}{FindFirst}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T17-03-16" Translated="2013-08-02T17-03-16" State="Validated">
+              <cur>
+                <Data>\R{FindFirst}{FindFirst} 로 시작한 검색을 종료합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="106">
             <Src CodePage="1252">
               <Data>\S2{FindFirst} FindFirst</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-03-16" State="Validated"/>
           </Vl>
           <Vl Index="107">
             <Src CodePage="1252">
               <Data>\c user_var(handle output) user_var(filename output) filespec</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-03-24" State="Validated"/>
           </Vl>
           <Vl Index="108">
             <Src CodePage="1252">
               <Data>Performs a search for 'filespec', placing the first file found in filename_output (a user variable). It also puts the handle of the search into handle_output (also a user variable). If no files are found, both outputs are set to empty, and the error flag is set. Best used with \R{FindNext}{FindNext} and \R{FindClose}{FindClose}. Note that the filename output is without path.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T17-04-15" Translated="2013-08-02T17-04-15" State="Validated">
+              <cur>
+                <Data>'filespec' 검색을 시작하여 첫 번째 검색된 파일을 출력변수 filename_output 에 저장합니다. 또한 검색의 핸들 또한 출력변수 handle_output 에 저장합니다. 파일을 찾을 수 없으면 두 출력 변수 모두 빈 문자열이 설정되고 에러 플래그가 설정됩니다. \R{FindNext}{FindNext} 와 \R{FindClose}{FindClose} 와 함께 사용합니다. 알림 : 출력되는 파일이름에는 경로가 없습니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="109">
             <Src CodePage="1252">
               <Data>\c FindFirst $0 $1 $INSTDIR\*.txt</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-03-32" State="Validated"/>
           </Vl>
           <Vl Index="110">
             <Src CodePage="1252">
               <Data>\c loop:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-03-32" State="Validated"/>
           </Vl>
           <Vl Index="111">
             <Src CodePage="1252">
               <Data>\c   StrCmp $1 "" done</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-03-32" State="Validated"/>
           </Vl>
           <Vl Index="112">
             <Src CodePage="1252">
               <Data>\c   DetailPrint $1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-03-32" State="Validated"/>
           </Vl>
           <Vl Index="113">
             <Src CodePage="1252">
               <Data>\c   FindNext $0 $1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-03-32" State="Validated"/>
           </Vl>
           <Vl Index="114">
             <Src CodePage="1252">
               <Data>\c   Goto loop</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-03-32" State="Validated"/>
           </Vl>
           <Vl Index="115">
             <Src CodePage="1252">
               <Data>\c done:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-46" State="Validated"/>
           </Vl>
           <Vl Index="116">
             <Src CodePage="1252">
               <Data>\c FindClose $0</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-03-33" State="Validated"/>
           </Vl>
           <Vl Index="117">
             <Src CodePage="1252">
               <Data>\S2{FindNext} FindNext</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-03-33" State="Validated"/>
           </Vl>
           <Vl Index="118">
             <Src CodePage="1252">
               <Data>\c handle user_var(filename_output)</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T17-03-33" State="Validated"/>
           </Vl>
           <Vl Index="119">
             <Src CodePage="1252">
               <Data>Continues a search began with \R{FindFirst}{FindFirst}. handle should be the handle_output_variable returned by \R{FindFirst}{FindFirst}. If the search is completed (there are no more files), filename_output is set to empty, and the error flag is set. Note that the filename output is without path.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Changed="2013-08-02T17-04-50" Translated="2013-08-02T17-04-50" State="Validated">
+              <cur>
+                <Data>\R{FindFirst}{FindFirst} 로 시작한 검색을 계속 합니다. handle 값은 \R{FindFirst}{FindFirst} 가 반환한 handle_output_variable 이어야 합니다. 검색이 완료되면(더이상 파일이 없을때), filename_output 은 빈 문자열이 설정되고 에러 플래그가 설정됩니다. 알림 : 출력되는 파일이름에는 경로가 없습니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
         </Resource>
       </ResourceType>
@@ -10334,7 +10404,7 @@
             <Src CodePage="1252">
               <Data>\c ClearErrors</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-44" State="Validated"/>
           </Vl>
           <Vl Index="27">
             <Src CodePage="1252">
@@ -10730,7 +10800,7 @@
             <Src CodePage="1252">
               <Data>\c ClearErrors</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-44" State="Validated"/>
           </Vl>
           <Vl Index="94">
             <Src CodePage="1252">
@@ -10934,7 +11004,7 @@
             <Src CodePage="1252">
               <Data>\c done:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-54-46" State="Validated"/>
           </Vl>
           <Vl Index="128">
             <Src CodePage="1252">
@@ -11334,7 +11404,7 @@
             <Src CodePage="1252">
               <Data>\c   MessageBox MB_OK "this message box will always show"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-01"/>
+            <Trg Created="2013-07-28T20-36-01" Translated="2013-08-02T16-45-26" State="Validated"/>
           </Vl>
           <Vl Index="196">
             <Src CodePage="1252">
@@ -37681,7 +37751,7 @@
             <Src CodePage="1252">
               <Data>\c IfRebootFlag 0 +2</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-45-26" State="Validated"/>
           </Vl>
           <Vl Index="45">
             <Src CodePage="1252">
@@ -38971,51 +39041,77 @@
             <Src CodePage="1252">
               <Data>\S0{plugindlls} Plug-in DLLs</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-47-37" Translated="2013-08-02T16-47-37" State="Validated">
+              <cur>
+                <Data>\S0{plugindlls} 플러그인 DLL</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="1">
             <Src CodePage="1252">The abilities of the NSIS scripting language can be extended by utilising functionality provided in a DLL file. Probably the best known example of this is the InstallOptions.dll bundled with every NSIS release.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-47-40" Translated="2013-08-02T16-47-40" State="Validated">
+              <cur>NSIS 스크립트 언어의 능력은 DLL 파일로 제공되는 함수를 이용해 확장할 수 있습니다. 아마도 모든 NSIS 배포본에 포함되는 InstallOptions.dll 파일이 가장 알기 좋은 예일 것입니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="2">
             <Src CodePage="1252">When the NSIS compiler starts it scans the plug-ins directory for DLLs and makes a list of the plug-ins found and their exported functions. During compilation if a sequence such as fred::flintstone is encountered where the compiler expected to find a language keyword the compiler will look through this list. If a list entry specifies that fred.dll exports function flintstone NSIS will pack the fred.dll file into the created installer binary.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-48-12" Translated="2013-08-02T16-48-12" State="Validated">
+              <cur>NSIS 컴파일러가 시작할 때 플러그인 디렉토리에서 DLL 을 검색하고 검색한 플러그인의 목록과 호출가능한 함수의 목록을 만듭니다. 컴파일하는 동안 fred::filntstone 과 같은 항목을 만났다면 컴파일러는 이 목록을 살펴보며 언어 예약어를 발견하기를 기대합니다. 목록의 항목이 fred.dll 이 외부로 노출한 함수 flinstone 와 같으면 NSIS 는 fred.dll 을 압축하여 만들어진 인스톨러 데이터에 넣습니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="3">
             <Src CodePage="1252">During execution of a plug-in command NSIS will unpack the necessary DLL to a temporary folder ($PLUGINSDIR), push all of the arguments specified (right-to-left order), and then execute the DLL function.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-48-41" Translated="2013-08-02T16-48-41" State="Validated">
+              <cur>플러그인 명령이 실행되는 동안 NSIS 는 필요한 DLL 파일을 임시 디렉토리에 압축을 풀고($PLUGINSDIR) 지정한 모든 인자를 입력하고 (오른쪽에서 왼쪽 순서) DLL 함수를 실행합니다.\0x20</cur>
+            </Trg>
           </Vl>
           <Vl Index="4">
             <Src CodePage="1252">
               <Data>\S1{usingplug} Using Plug-in Commands</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-48-51" Translated="2013-08-02T16-48-51" State="Validated">
+              <cur>
+                <Data>\S1{usingplug} 플러그인 명령 사용하기</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="5">
             <Src CodePage="1252">A plug-in call looks like this:</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-48-55" Translated="2013-08-02T16-48-55" State="Validated">
+              <cur>플러그인 호출은 아래와 같은 형태입니다:</cur>
+            </Trg>
           </Vl>
           <Vl Index="6">
             <Src CodePage="1252">
               <Data>\c InstallOptions::dialog "ini_file_location.ini"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-48-57" State="Validated"/>
           </Vl>
           <Vl Index="7">
             <Src CodePage="1252">All parameters are pushed onto the stack (in this case, the plug-in function only needs one parameter). Some plug-in commands may not need any parameters on the stack, others might require more of them. To use a plug-in command you will need to read the documentation for the plug-in so that you know what parameters its functions require.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-48-59" Translated="2013-08-02T16-48-59" State="Validated">
+              <cur>모든 매개변수는 스택에 넣어집니다(이 경우 플러그인 함수는 오직 하나의 매개변수만 필요). 몇몇 플러그인 명령은 스택에 어떠한 매개변수도 필요치 않습니다. 다른 것들은 더 많은 매개변수를 요구할 수 있습니다. 플러그인 명령을 사용하려면 플러그인 문서를 읽고 함수가 요구하는 매개변수를 알아야 합니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="8">
             <Src CodePage="1252">
               <Data>\S1{calldiskplug} Calling plug-ins manually</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-49-04" Translated="2013-08-02T16-49-04" State="Validated">
+              <cur>
+                <Data>\S1{calldiskplug} 직접 플러그인 호출하기</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="9">
             <Src CodePage="1252">
               <Data>If you want to call a plug-in that is stored on user's hard drive or somewhere else, use \R{callinstdll}{CallInstDLL}. Almost all plug-ins provide installer functionality, so using plug-in commands is way easier. Using \R{callinstdll}{CallInstDLL} can be useful when you have created plug-ins that should be linked to a certain version of your application and are being copied to the installation folder.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-49-06" Translated="2013-08-02T16-49-06" State="Validated">
+              <cur>
+                <Data>사용자의 하드 디스크 또는 다른 곳에 저장된 플러그인을 호출하려면 \R{callinstdll}{CallInstDLL} 를 사용합니다. 거의 모든 플러그인은 인스톨러 기능를 제공하기 때문에 플러그인 명령을 사용하는 것은 쉽습니다. 프로그램에 연결된 플러그인을 직접 만들었고 그 플러그인이 설치 폴더에 복사되는 때는 \R{callinstdll}{CallInstDLL} 을 사용하는 것이 유용합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
         </Resource>
       </ResourceType>
@@ -39112,67 +39208,79 @@
             <Src CodePage="1252">
               <Data>\S{rebootinst} Reboot Instructions</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-45-02" Translated="2013-08-02T16-45-02" State="Validated">
+              <cur>
+                <Data>\S{rebootinst} 재부팅 명령</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="1">
             <Src CodePage="1252">
               <Data>\S2{reboot} Reboot</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-45-02" State="Validated"/>
           </Vl>
           <Vl Index="2">
             <Src CodePage="1252">
               <Data>Reboots the computer. Be careful with this one. If it fails, \R{onrebootfailed}{.onRebootFailed} is called. In any case, this instruction never returns, just like \R{quit}{Quit}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-45-04" Translated="2013-08-02T16-45-04" State="Validated">
+              <cur>
+                <Data>컴퓨터를 재부팅합니다. 실패하면 \R{onrebootfailed}{.onRebootFailed} 이 호출됩니다. 어떠한 경우에도 \R{quit}{Quit} 와 같이 반환값이 없습니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="3">
             <Src CodePage="1252">
               <Data>\c MessageBox MB_YESNO|MB_ICONQUESTION "Do you wish to reboot the system?" IDNO +2</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-45-19" State="Validated"/>
           </Vl>
           <Vl Index="4">
             <Src CodePage="1252">
               <Data>\c   Reboot</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-45-20" State="Validated"/>
           </Vl>
           <Vl Index="5">
             <Src CodePage="1252">
               <Data>\S2{setrebootflag} SetRebootFlag</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-45-21" State="Validated"/>
           </Vl>
           <Vl Index="6">
             <Src CodePage="1252">
               <Data>\c true|false</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-45-22" State="Validated"/>
           </Vl>
           <Vl Index="7">
             <Src CodePage="1252">
               <Data>Sets the reboot flag to either true or false. The flag's value can be read using \R{ifrebootflag}{IfRebootFlag}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-45-25" Translated="2013-08-02T16-45-25" State="Validated">
+              <cur>
+                <Data>재부팅 플래그를 설정합니다. 플래그 값을 읽으려면 \R{ifrebootflag}{IfRebootFlag} 명령을 참조하세요.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="8">
             <Src CodePage="1252">
               <Data>\c SetRebootFlag true</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-45-25" State="Validated"/>
           </Vl>
           <Vl Index="9">
             <Src CodePage="1252">
               <Data>\c IfRebootFlag 0 +2</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-45-26" State="Validated"/>
           </Vl>
           <Vl Index="10">
             <Src CodePage="1252">
               <Data>\c   MessageBox MB_OK "this message box will always show"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-45-26" State="Validated"/>
           </Vl>
         </Resource>
       </ResourceType>
@@ -39435,7 +39543,7 @@
             <Src CodePage="1252">
               <Data>\c loop:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T17-03-32" State="Validated"/>
           </Vl>
           <Vl Index="30">
             <Src CodePage="1252">
@@ -39447,7 +39555,7 @@
             <Src CodePage="1252">
               <Data>\c   StrCmp $1 "" done</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T17-03-32" State="Validated"/>
           </Vl>
           <Vl Index="32">
             <Src CodePage="1252">
@@ -39465,7 +39573,7 @@
             <Src CodePage="1252">
               <Data>\c done:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-54-46" State="Validated"/>
           </Vl>
           <Vl Index="35">
             <Src CodePage="1252">
@@ -39495,7 +39603,7 @@
             <Src CodePage="1252">
               <Data>\c loop:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T17-03-32" State="Validated"/>
           </Vl>
           <Vl Index="40">
             <Src CodePage="1252">
@@ -39537,7 +39645,7 @@
             <Src CodePage="1252">
               <Data>\c done:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-54-46" State="Validated"/>
           </Vl>
           <Vl Index="47">
             <Src CodePage="1252">
@@ -43009,153 +43117,165 @@
             <Src CodePage="1252">
               <Data>\S1{stackinst} Stack Support</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-24-29" Translated="2013-08-02T16-24-29" State="Validated">
+              <cur>
+                <Data>\S1{stackinst} 스택 지원</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="1">
             <Src CodePage="1252">
               <Data>\S2{Exch} Exch</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-24-29" State="Validated"/>
           </Vl>
           <Vl Index="2">
             <Src CodePage="1252">
               <Data>\c [user_var | stack_index]</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-24-29" State="Validated"/>
           </Vl>
           <Vl Index="3">
             <Src CodePage="1252">
               <Data>When no parameter is specified, exchanges the top two elements of the stack. When a parameter is specified and is a user variable, exchanges the top element of the stack with the parameter. When a parameter is specified and is a positive integer, \R{Exch}{Exch} will swap the item on the top of the stack with the item that is specified by the offset from the top of the stack in the parameter. If there are not enough items on the stack to accomplish the exchange, a fatal error will occur (to help you debug your code :).</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-24-33" Translated="2013-08-02T16-24-33" State="Validated">
+              <cur>매개변수를 지정하지 않으면 스택에서 상위 2개의 매개변수를 바꿉니다. 매개변수와 사용자 변수가 설정되면 매개변수와 스택의 상위 요소를 교환하여 사용자 변수에 저장합니다. 매개변수가 설정되고 그 값이 양의 정수이면 스택의 최상위에서 매개변수만큼 이동하여 설정된 항목과 스택의 최상위 항목과 교환합니다. 만약 교환을 수행하기에 스택의 항목이 충분치 않다면 코드의 디버그를 돕기 위해 치명적인 오류가 발생합니다 :).</cur>
+            </Trg>
           </Vl>
           <Vl Index="4">
             <Src CodePage="1252">
               <Data>\c Push 1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-42-46" State="Validated"/>
           </Vl>
           <Vl Index="5">
             <Src CodePage="1252">
               <Data>\c Push 2</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-42-46" State="Validated"/>
           </Vl>
           <Vl Index="6">
             <Src CodePage="1252">
               <Data>\c Exch</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-42-46" State="Validated"/>
           </Vl>
           <Vl Index="7">
             <Src CodePage="1252">
               <Data>\c Pop $0 # = 1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-42-46" State="Validated"/>
           </Vl>
           <Vl Index="8">
             <Src CodePage="1252">
               <Data>\c Push 1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-42-46" State="Validated"/>
           </Vl>
           <Vl Index="9">
             <Src CodePage="1252">
               <Data>\c Push 2</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-42-46" State="Validated"/>
           </Vl>
           <Vl Index="10">
             <Src CodePage="1252">
               <Data>\c Push 3</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-42-46" State="Validated"/>
           </Vl>
           <Vl Index="11">
             <Src CodePage="1252">
               <Data>\c Exch 2</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-42-46" State="Validated"/>
           </Vl>
           <Vl Index="12">
             <Src CodePage="1252">
               <Data>\c Pop $0 # = 1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-42-46" State="Validated"/>
           </Vl>
           <Vl Index="13">
             <Src CodePage="1252">
               <Data>\c StrCpy $0 1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-42-46" State="Validated"/>
           </Vl>
           <Vl Index="14">
             <Src CodePage="1252">
               <Data>\c Push 2</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-42-46" State="Validated"/>
           </Vl>
           <Vl Index="15">
             <Src CodePage="1252">
               <Data>\c Exch $0 # = 2</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-42-46" State="Validated"/>
           </Vl>
           <Vl Index="16">
             <Src CodePage="1252">
               <Data>\c Pop $1 # = 1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-42-46" State="Validated"/>
           </Vl>
           <Vl Index="17">
             <Src CodePage="1252">
               <Data>\S2{Pop} Pop</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-42-46" State="Validated"/>
           </Vl>
           <Vl Index="18">
             <Src CodePage="1252">
               <Data>\c user_var(out)</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-42-46" State="Validated"/>
           </Vl>
           <Vl Index="19">
             <Src CodePage="1252">Pops a string off of the stack into user variable $x. If the stack is empty, the error flag will be set.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-43-05" Translated="2013-08-02T16-43-05" State="Validated">
+              <cur>스택에서 문자열을 꺼내어 사용자 변수 $x 에 저장합니다. 스택이 비어 있다면 에러플래그가 설정됩니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="20">
             <Src CodePage="1252">
               <Data>\c Push 1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-42-46" State="Validated"/>
           </Vl>
           <Vl Index="21">
             <Src CodePage="1252">
               <Data>\c Pop $0 # = 1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-42-46" State="Validated"/>
           </Vl>
           <Vl Index="22">
             <Src CodePage="1252">
               <Data>\S2{Push} Push</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-43-08" State="Validated"/>
           </Vl>
           <Vl Index="23">
             <Src CodePage="1252">
               <Data>\c string</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-43-09" State="Validated"/>
           </Vl>
           <Vl Index="24">
             <Src CodePage="1252">Pushes a string onto the stack. The string can then be Popped off of the stack.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-43-13" Translated="2013-08-02T16-43-13" State="Validated">
+              <cur>
+                <Data>문자열을 스택에 넣습니다. \R{Pop}{Pop} 명령으로 스택에서 꺼낼 수 있습니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="25">
             <Src CodePage="1252">
               <Data>\c Push "a string"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-43-09" State="Validated"/>
           </Vl>
         </Resource>
       </ResourceType>
@@ -43252,81 +43372,89 @@
             <Src CodePage="1252">
               <Data>\S1{stringinst} String Manipulation Instructions</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-43-42" Translated="2013-08-02T16-43-42" State="Validated">
+              <cur>
+                <Data>\S1{stringinst} 문자열 관리 명령</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="1">
             <Src CodePage="1252">
               <Data>\S2{StrCpy} StrCpy</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-43-43" State="Validated"/>
           </Vl>
           <Vl Index="2">
             <Src CodePage="1252">
               <Data>\c user_var(destination) str [maxlen] [start_offset]</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-43-43" State="Validated"/>
           </Vl>
           <Vl Index="3">
             <Src CodePage="1252">Sets the user variable $x with str. Note that str can contain other variables, or the user variable being set (concatenating strings this way is possible, etc). If maxlen is specified, the string will be a maximum of maxlen characters (if maxlen is negative, the string will be truncated abs(maxlen) characters from the end). If start_offset is specified, the source is offset by it (if start_offset is negative, it will start abs(start_offset) from the end of the string).</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-43-46" Translated="2013-08-02T16-43-46" State="Validated">
+              <cur>변수 $x 에 문자열을 지정합니다. 알림 : 문자열은 다른 변수 또는 사용자 변수를 포함할 수 있습니다. maxlen 값이 설정되면 문자열의 최대 길이는 maxlen 값 범위로 조절됩니다. maxlen 값을 음수로 설정하면 maxlen 값을 절대값으로 변환 후 그 값만큼 문자열의 끝부터 잘라냅니다. start_offset 이 설정되면 그 값만큼 이동된 후 지정됩니다. start_offset 이 음수로 설정되면 끝에서부터 이동합니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="4">
             <Src CodePage="1252">
               <Data>\c StrCpy $0 "a string" # = "a string"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-43-49" State="Validated"/>
           </Vl>
           <Vl Index="5">
             <Src CodePage="1252">
               <Data>\c StrCpy $0 "a string" 3 # = "a s"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-43-49" State="Validated"/>
           </Vl>
           <Vl Index="6">
             <Src CodePage="1252">
               <Data>\c StrCpy $0 "a string" -1 # = "a strin"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-43-49" State="Validated"/>
           </Vl>
           <Vl Index="7">
             <Src CodePage="1252">
               <Data>\c StrCpy $0 "a string" "" 2 # = "string"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-43-49" State="Validated"/>
           </Vl>
           <Vl Index="8">
             <Src CodePage="1252">
               <Data>\c StrCpy $0 "a string" "" -3 # = "ing"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-43-49" State="Validated"/>
           </Vl>
           <Vl Index="9">
             <Src CodePage="1252">
               <Data>\c StrCpy $0 "a string" 3 -4 # = "rin"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-43-49" State="Validated"/>
           </Vl>
           <Vl Index="10">
             <Src CodePage="1252">
               <Data>\S2{StrLen} StrLen</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-43-49" State="Validated"/>
           </Vl>
           <Vl Index="11">
             <Src CodePage="1252">
               <Data>\c user_var(length output) str</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-43-49" State="Validated"/>
           </Vl>
           <Vl Index="12">
             <Src CodePage="1252">Sets user variable $x with the length of str.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-43-51" Translated="2013-08-02T16-43-51" State="Validated">
+              <cur>변수 $x 에 문자열의 길이를 반환합니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="13">
             <Src CodePage="1252">
               <Data>\c StrLen $0 "123456" # = 6</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-43-51" State="Validated"/>
           </Vl>
         </Resource>
       </ResourceType>
@@ -43817,7 +43945,7 @@
             <Src CodePage="1252">
               <Data>\c done:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-54-46" State="Validated"/>
           </Vl>
           <Vl Index="70">
             <Src CodePage="1252">However, with the LogicLib, the code gets is much more readable and easy to understand, as can be seen in the following example.</Src>
@@ -44401,7 +44529,9 @@
           </Vl>
           <Vl Index="172">
             <Src CodePage="1252">A plug-in call looks like this:</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-48-55" Translated="2013-08-02T16-48-55" State="Validated">
+              <cur>플러그인 호출은 아래와 같은 형태입니다:</cur>
+            </Trg>
           </Vl>
           <Vl Index="173">
             <Src CodePage="1252">
@@ -44884,7 +45014,7 @@
             <Src CodePage="1252">
               <Data>\c true|false</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-45-22" State="Validated"/>
           </Vl>
           <Vl Index="59">
             <Src CodePage="1252">
@@ -45691,43 +45821,51 @@
             <Src CodePage="1252">
               <Data>\S1{UninstallSection} Uninstall Section</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-45-48" Translated="2013-08-02T16-45-48" State="Validated">
+              <cur>
+                <Data>\S1{UninstallSection} 설치제거 섹션</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="1">
             <Src CodePage="1252">
               <Data>A special \R{ssection}{Section} named 'Uninstall' must be created in order to generate an uninstaller. This section should remove all files, registry keys etc etc that were installed by the installer, from the system. Here is an example of a simple uninstall section:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-46-15" Translated="2013-08-02T16-46-15" State="Validated">
+              <cur>
+                <Data>'Uninstall' 이라는 특별한 이름을 가진 \R{ssection}{섹션} 은 설치제거마법사를 생성하기 위해 반드시 만들어야합니다. 이 섹션은 설치관리자가 생성한 파일, 레지스트리 키등 모든 것을 제거합니다. 여기에 이 섹션에 대한 예가 있습니다:</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="2">
             <Src CodePage="1252">
               <Data>\c Section "Uninstall"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-46-15" State="Validated"/>
           </Vl>
           <Vl Index="3">
             <Src CodePage="1252">
               <Data>\c   Delete $INSTDIR\Uninst.exe ; delete self (see explanation below why this works)</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-46-16" State="Validated"/>
           </Vl>
           <Vl Index="4">
             <Src CodePage="1252">
               <Data>\c   Delete $INSTDIR\myApp.exe</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-46-16" State="Validated"/>
           </Vl>
           <Vl Index="5">
             <Src CodePage="1252">
               <Data>\c   RMDir $INSTDIR</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-46-16" State="Validated"/>
           </Vl>
           <Vl Index="6">
             <Src CodePage="1252">
               <Data>\c   DeleteRegKey HKLM SOFTWARE\myApp</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-46-16" State="Validated"/>
           </Vl>
           <Vl Index="7">
             <Src CodePage="1252">
@@ -45739,13 +45877,21 @@
             <Src CodePage="1252">
               <Data>The first \R{delete}{Delete} instruction works (deleting the uninstaller), because the uninstaller is transparently copied to the system temporary directory for the uninstall.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-46-19" Translated="2013-08-02T16-46-19" State="Validated">
+              <cur>
+                <Data>처음 \R{delete}{Delete} 명령은 설치제거관리자를 삭제합니다. 왜냐하면, 설치제거관리자는 작동하는동안 시스템의 임시 디렉토리에 복사되어 실행되기 때문입니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="9">
             <Src CodePage="1252">
               <Data>Note that in uninstaller code, $INSTDIR contains the directory where the uninstaller lies. It does \\&lt;b\\&gt;not\\&lt;/b\\&gt; necessarily contain the same value it contained in the installer.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-02T16-47-14" Translated="2013-08-02T16-47-14" State="Validated">
+              <cur>
+                <Data>알림 : 설치제거시의 $INSTDIR 변수는 설치제거관리자가 위치한 디렉토리입니다. 설치할 때 사용한 $INSTDIR 값과 반드시 일치한 값이라고 \\&lt;b\\&gt;할 수 없으며 \\&lt;/b\\&gt; 그럴 필요도 없습니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
         </Resource>
       </ResourceType>
@@ -48675,7 +48821,7 @@
             <Src CodePage="1252">
               <Data>\c done:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-02T16-54-46" State="Validated"/>
           </Vl>
           <Vl Index="325">
             <Src CodePage="1252">
