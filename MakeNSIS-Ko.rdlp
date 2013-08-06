@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <RadialixLocalizerProject>
   <Header FileVersion="19" Guid="{AC923C1B-6FA0-4024-86BF-2B66D7E7AB12}"/>
-  <IDESettings ProjectItemPath="0.file.but (file.but)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
-    <StringTableSettings FocusedValueID="#0.#119" SortDirection="0" SortedColumnIndex="-1"/>
+  <IDESettings ProjectItemPath="0.script.but (script.but)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
+    <StringTableSettings FocusedValueID="#0.#49" SortDirection="0" SortedColumnIndex="-1"/>
     <TextTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
     <AccelTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
     <ImageTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
@@ -15,14 +15,14 @@
     </Languages>
     <Info>
       <CreatedBy Date="2013-07-28T20-16-34">Radialix Version 3.00.00  Build 486</CreatedBy>
-      <ModifiedBy Date="2013-08-02T17-04-50">Radialix Version 3.00.00  Build 486</ModifiedBy>
+      <ModifiedBy Date="2013-08-05T13-50-07">Radialix Version 3.00.00  Build 486</ModifiedBy>
       <Author>DevTester</Author>
       <Organization>My House</Organization>
       <Comment/>
       <WebSite/>
       <ContactEMail/>
       <Copyright/>
-      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="266" AutoIncrementBuildNumber="1"/>
+      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="323" AutoIncrementBuildNumber="1"/>
     </Info>
     <Publisher>
       <ApplicationName>&lt;Title&gt; &lt;WinCode&gt;</ApplicationName>
@@ -946,6 +946,7 @@
       <Template Name="but files" Enabled="1" ClassID="{4933AD42-47D5-4B9B-AAC6-F77A1DB5B111}" Extension="but" Escape="C/C++">
         <Item Enabled="1" ResourceID="-" StringID="-" String="$1" Translation="-" Comment="-" Ignore="-">^([^\n\r]+?)$</Item>
         <CharMapping/>
+        <Format Name="C-FORMAT">1</Format>
         <TargetResID>
           <Item Name="&lt;OriginalID&gt;" LangID="-1" Enabled="1"/>
         </TargetResID>
@@ -3365,6 +3366,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -3889,6 +3891,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -4852,6 +4855,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -6580,6 +6584,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -7161,6 +7166,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -7336,6 +7342,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -7493,6 +7500,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -7626,6 +7634,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -7753,6 +7762,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -8582,6 +8592,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -9289,6 +9300,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -10168,6 +10180,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -11477,6 +11490,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -11660,6 +11674,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -12279,6 +12294,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -24807,6 +24823,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -34184,6 +34201,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -34441,6 +34459,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -34994,6 +35013,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -35223,6 +35243,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -35354,6 +35375,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -35821,6 +35843,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -36840,6 +36863,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -37258,6 +37282,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -37413,6 +37438,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -37495,7 +37521,11 @@
             <Src CodePage="1252">
               <Data>\S1{miscinst} Miscellaneous Instructions</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-04" State="ForReview">
+              <cur>
+                <Data>\S1{miscinst} 기타 명령</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="1">
             <Src CodePage="1252">
@@ -37513,7 +37543,11 @@
             <Src CodePage="1252">
               <Data>Returns the last error level set by \R{seterrorlevel}{SetErrorLevel} or -1 if it was never used.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-04" State="ForReview">
+              <cur>
+                <Data>\R{seterrorlevel}{SetErrorLevel}에 의해 설정된 마지막 에러 레벨 또는 명령이 한번도 사용된 적이 없다면  -1 을 반환합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="4">
             <Src CodePage="1252">
@@ -37549,19 +37583,29 @@
             <Src CodePage="1252">
               <Data>Use in the leave function of a directory page. Reads the flag set if '\R{adirverify}{DirVerify leave}' is used. Possible values:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-04" State="ForReview">
+              <cur>
+                <Data>디렉토리 페이지의 종료 함수에서 사용합니다. '\R{adirverify}{DirVerify leave}' 를 사용했다면 설정된 플래그를 읽을 수 있습니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="10">
             <Src CodePage="1252">0: No error</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-04" State="ForReview">
+              <cur>0: 에러 없음</cur>
+            </Trg>
           </Vl>
           <Vl Index="11">
             <Src CodePage="1252">1: Invalid installation directory</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-04" State="ForReview">
+              <cur>1: 유효하지 않은 설치 디렉토리</cur>
+            </Trg>
           </Vl>
           <Vl Index="12">
             <Src CodePage="1252">2: Not enough space on installation drive</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-04" State="ForReview">
+              <cur>2: 설치 드라이브에 충분한 공간이 없음</cur>
+            </Trg>
           </Vl>
           <Vl Index="13">
             <Src CodePage="1252">
@@ -37705,7 +37749,11 @@
             <Src CodePage="1252">
               <Data>Initializes the plug-ins dir (\R{varconstant}{$PLUGINSDIR}) if not already initialized.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-04" State="ForReview">
+              <cur>
+                <Data>이미 초기화 되지 않았다면 \R{varconstant}{$PLUGINSDIR} 로 설정되어 있는 플러그인 디렉토리를 초기화합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="37">
             <Src CodePage="1252">
@@ -37727,7 +37775,9 @@
           </Vl>
           <Vl Index="40">
             <Src CodePage="1252">Does nothing.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-04" State="ForReview">
+              <cur>아무것도 하지 않음.</cur>
+            </Trg>
           </Vl>
           <Vl Index="41">
             <Src CodePage="1252">
@@ -37745,7 +37795,11 @@
             <Src CodePage="1252">
               <Data>Sets the error level of the installer or uninstaller to \e{error_level}. See \R{errorlevels}{Error Levels} for more information.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-04" State="ForReview">
+              <cur>
+                <Data>인스톨러 또는 언인스톨러의 에러 레벨을 \e{error_level} 에 설정합니다. 에러 레벨에 대한 더 자세한 정보를 \R{errorlevels}{Error Levels} 를 참조하세요.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="44">
             <Src CodePage="1252">
@@ -37775,19 +37829,31 @@
             <Src CodePage="1252">
               <Data>Sets the registry view affected by \R{registry}{registry commands}. On Windows x64 there are two views. One for 32-bit applications and one for x64 applications. By default, 32-bit applications running on x64 systems under WOW64 have access only to the 32-bit view. Using \c{SetRegView 64} allows the installer to access keys in the x64 view of the registry.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-04" State="ForReview">
+              <cur>
+                <Data>\R{registry}{레지스트리} 명령에 영향을 주는 레지스트리 뷰를 설정합니다. 윈도 x64 에서는 두가지 뷰가 있습니다. 하나는 32비트 어플리케이션을 위한 것이고 하는 x64 어플리케이션을 위한 것입니다. 기본적으로, WOW64 하의 x64 시스템에서 구동되는 32비트 어플리케이션은 32비트 뷰에만 접근할 수 있습니다. \c{SetRegView 64} 를 사용하면 설치관리자가 레지스트리의 x64 뷰에 있는 키들에 접근할 수 있도록 합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="49">
             <Src CodePage="1252">
               <Data>Affects \R{deleteregkey}{DeleteRegKey}, \R{deleteregvalue}{DeleteRegValue}, \R{enumregkey}{EnumRegKey}, \R{enumregvalue}{EnumRegValue}, \R{readregdword}{ReadRegDWORD}, \R{readregstr}{ReadRegStr}, \R{writeregbin}{WriteRegBin}, \R{writeregdword}{WriteRegDWORD}, \R{writeregstr}{WriteRegStr} and \R{writeregexpandstr}{WriteRegExpandStr}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-04" State="ForReview">
+              <cur>
+                <Data>영향 주는 명령 : \R{deleteregkey}{DeleteRegKey}, \R{deleteregvalue}{DeleteRegValue}, \R{enumregkey}{EnumRegKey}, \R{enumregvalue}{EnumRegValue}, \R{readregdword}{ReadRegDWORD}, \R{readregstr}{ReadRegStr}, \R{writeregbin}{WriteRegBin}, \R{writeregdword}{WriteRegDWORD}, \R{writeregstr}{WriteRegStr} 와\R{writeregexpandstr}{WriteRegExpandStr}.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="50">
             <Src CodePage="1252">
               <Data>Does not affect \R{ainstalldirregkey}{InstallDirRegKey}. Instead, the registry can be read using \R{readregstr}{ReadRegStr} in \R{oninit}{.onInit}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-04" State="ForReview">
+              <cur>
+                <Data>\R{ainstalldirregkey}{InstallDirRegKey} 에는 영향을 주지 않습니다. 대신 \R{oninit}{.onInit} 에서 \R{readregstr}{ReadRegStr} 를 사용해서 레지스트리를 읽을 수 있습니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="51">
             <Src CodePage="1252">
@@ -37805,7 +37871,11 @@
             <Src CodePage="1252">
               <Data>\c DetailPrint $0 # prints C:\Program Files (x86)</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-04" State="ForReview">
+              <cur>
+                <Data>\c DetailPrit $0 # prints C:\Program Files (x86)</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="54">
             <Src CodePage="1252">
@@ -37823,7 +37893,11 @@
             <Src CodePage="1252">
               <Data>\c DetailPrint $0 # prints C:\Program Files</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-04" State="ForReview">
+              <cur>
+                <Data>\c DetailPrit $0 # prints C:\Program Files</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="57">
             <Src CodePage="1252">
@@ -37871,11 +37945,17 @@
             <Src CodePage="1252">
               <Data>Sets the context of $SMPROGRAMS and other shell folders. If set to 'current' (the default), the current user's shell folders are used. If set to 'all', the 'all users' shell folder is used. The all users folder may not be supported on all OSes. If the all users folder is not found, the current user folder will be used. Please take into consideration that a "normal user" has no rights to write in the all users area. Only admins have full access rights to the all users area. You can check this by using the UserInfo plug-in. See Contrib\\UserInfo\\UserInfo.nsi for an example.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-04" State="ForReview">
+              <cur>
+                <Data>$SMPROGRAMS 와 다른 쉘 폴더의 사용자지원환경을 설정합니다. 'current' (기본값) 으로 설정하면 현재 사용자의 쉘 폴더가 사용됩니다. 'all' 을 설정하면 모든 사용자의 쉘 폴더가 사용됩니다. 모든 사용자의 쉘 폴더는 모든 OS에서 지원되는 것은 아닙니다. 만약 모든 사용자 폴더를 찾을 수 없으면 현재 사용자 폴더가 사용됩니다. '보통 사용자'는 모든 사용자 영역에 쓸 수 있는 권한이 없다는 것을 고려해야 합니다. 오직 관리자만이 모든 사용자 영역에 대한 완전한 접근 권한이 있습니다. UserInfo 플러그인을 사용하여 권한을 검사할 수 있습니다. 이에 대한 예제를 보려면 Contrib\\UserInfo\\UserInfo.nsi 를 참조하세요.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="65">
             <Src CodePage="1252">Note that, if used in installer code, this will only affect the installer, and if used in uninstaller code, this will only affect the uninstaller. To affect both, it needs to be used in both.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-04" State="ForReview">
+              <cur>알림 : 설치관리자 코드에서 사용하면 설치관리자에만 영향을 미치고, 설치제거관리자 코드에서 사용하면 설치제거관리자에만 영향을 미칩니다. 양쪽에 영향을 주려면 두번 사용해야합니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="66">
             <Src CodePage="1252">
@@ -37921,7 +38001,9 @@
           </Vl>
           <Vl Index="73">
             <Src CodePage="1252">Pauses execution in the installer for sleeptime_in_ms milliseconds. sleeptime_in_ms can be a variable, e.g. "$0" or a number, i.e. "666".</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-04" State="ForReview">
+              <cur>sleeptime_in_ms 밀리세컨드(천분의 일초) 만큼 인스톨러의 실행을 중지합니다. sleeptime_in_ms 는 변수를 사용할 수 있습니다. 예, "$0" 또는 숫자 - "666"</cur>
+            </Trg>
           </Vl>
           <Vl Index="74">
             <Src CodePage="1252">
@@ -37954,6 +38036,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -38036,37 +38119,59 @@
             <Src CodePage="1252">
               <Data>\A{modernui} Modern User Interface</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-48-26" Translated="2013-08-05T07-48-26" State="Validated">
+              <cur>
+                <Data>\A{modernui} Modern 사용자 인터페이스</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="1">
             <Src CodePage="1252">NSIS 2 makes it is possible to create installers with a custom user interface. The Modern UI is an interface with a style like the wizards of recent Windows versions.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-48-44" Translated="2013-08-05T07-48-44" State="Validated">
+              <cur>NSIS 2 는 사용자 정의 인터페이스를 사용해서 인스톨러를 만들 수 있습니다. Modern UI 는 최근의 윈도에서 사용되는 마법사와 같은 형태의 인터페이스를 갖추고 있습니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="2">
             <Src CodePage="1252">This new interface also features new pages (Welcome, Finish, Start Menu) and a description area on the components page. The interface and the graphics can be customized using the provided settings.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-48-54" Translated="2013-08-05T07-48-54" State="Validated">
+              <cur>이 새로운 인터페이스는 또한 새로운 기능페이지 (환영,종료,시작메뉴) 와 컴포넌트 페이지의 설명영역을 제공합니다. 인터페이스와 그래픽은 모두 제공된 설정을 이용하여 조절할 수 있습니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="3">
             <Src CodePage="1252">Using the Modern UI macros and language files, writing scripts with a modern interface is easy.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-48-58" Translated="2013-08-05T07-48-58" State="Validated">
+              <cur>Modern UI 매크로와 언어파일로 인터페이스 스크립트를 작성하는 것은 매우 쉽습니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="4">
             <Src CodePage="1252">
               <Data>For more information and documentation see the \L{../Docs/Modern UI 2/Readme.html}{Modern UI 2 Readme}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-49-02" Translated="2013-08-05T07-49-02" State="Validated">
+              <cur>
+                <Data>더 많은 정보와 문서를 보려면 \L{../Docs/Modern UI 2/Readme.html}{Modern UI 2 Readme} 를 참조하세요.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="5">
             <Src CodePage="1252">
               <Data>NSIS 2.34 brought with it a new version of Modern UI - version 2. It is faster and more extendible. It allows plug-ins to add new types of pages and even change existing pages using a simple NSH file. It also uses \L{../Docs/nsDialogs/Readme.html}{nsDialogs} which faster than its elder sibling - InstallOptions.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-49-12" Translated="2013-08-05T07-49-12" State="Validated">
+              <cur>
+                <Data>NSIS 2.34 는 Modern UI - version 2 를 가지고 나타났습니다. Modern UI 2 는 더욱 빠르고 확장가능합니다. MUI2 는 새로운 형태의 페이지를 추가하기 위해 플러그인을 사용할 수 있고, 심지어 간단한 NSH 파일을 사용해서 기존 페이지를 변경할 수 있습니다. MUI2 는 또한 맏형격인 InstallOptions 보다 더욱 빠른  \L{../Docs/nsDialogs/Readme.html}{nsDialogs} 를 사용합니다.\0x20</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="6">
             <Src CodePage="1252">
               <Data>For more information and documentation of the old version see the \L{../Docs/Modern UI/Readme.html}{Modern UI Readme}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-49-24" Translated="2013-08-05T07-49-24" State="Validated">
+              <cur>
+                <Data>구버전에 대한 더 많은 정보와 문서를 보시려면 \L{../Docs/Modern UI/Readme.html}{Modern UI 문서} 를 참조하세요.</Data>
+              </cur>
+            </Trg>
           </Vl>
         </Resource>
       </ResourceType>
@@ -38081,6 +38186,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -38161,67 +38267,73 @@
           </SourceLanguages>
           <Vl Index="0">
             <Src CodePage="1252">[OPTIONS]</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-36-55" State="Validated"/>
           </Vl>
           <Vl Index="1">
             <Src CodePage="1252">Compatibility=1.1 or later</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-36-55" State="Validated"/>
           </Vl>
           <Vl Index="2">
             <Src CodePage="1252">Compiled file=NSIS.chm</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-36-55" State="Validated"/>
           </Vl>
           <Vl Index="3">
             <Src CodePage="1252">Contents file=toc.hhc</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-36-55" State="Validated"/>
           </Vl>
           <Vl Index="4">
             <Src CodePage="1252">Default Window=Main</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-36-55" State="Validated"/>
           </Vl>
           <Vl Index="5">
             <Src CodePage="1252">Default topic=Contents.html</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-36-55" State="Validated"/>
           </Vl>
           <Vl Index="6">
             <Src CodePage="1252">Display compile progress=Yes</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-36-55" State="Validated"/>
           </Vl>
           <Vl Index="7">
             <Src CodePage="1252">Full-text search=Yes</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-36-55" State="Validated"/>
           </Vl>
           <Vl Index="8">
             <Src CodePage="1252">Index file=ind.hhk</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-36-55" State="Validated"/>
           </Vl>
           <Vl Index="9">
             <Src CodePage="1252">Language=0x409 English (United States)</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-38-07" Translated="2013-08-05T07-38-07" State="Validated">
+              <cur>Language=0x412 Korean</cur>
+            </Trg>
           </Vl>
           <Vl Index="10">
             <Src CodePage="1252">Title=NSIS Users Manual</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-37-21" Translated="2013-08-05T07-37-21" State="Validated">
+              <cur>Title=NSIS 사용자 설명서</cur>
+            </Trg>
           </Vl>
           <Vl Index="11">
             <Src CodePage="1252">[WINDOWS]</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-36-55" State="Validated"/>
           </Vl>
           <Vl Index="12">
             <Src CodePage="1252">Main="NSIS User Manual","toc.hhc","ind.hhk","Contents.html","Contents.html",,,,,0x23520,,0x387e,,0xb0000,,,,,,0</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-37-41" Translated="2013-08-05T07-37-41" State="Validated">
+              <cur>Main="NSIS 사용자 설명서","toc.hhc","ind.hhk","Contents.html","Contents.html",,,,,0x23520,,0x387e,,0xb0000,,,,,,0</cur>
+            </Trg>
           </Vl>
           <Vl Index="13">
             <Src CodePage="1252">[FILES]</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-36-55" State="Validated"/>
           </Vl>
           <Vl Index="14">
             <Src CodePage="1252">Contents.html</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-36-55" State="Validated"/>
           </Vl>
           <Vl Index="15">
             <Src CodePage="1252">[INFOTYPES]</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-36-55" State="Validated"/>
           </Vl>
         </Resource>
       </ResourceType>
@@ -38318,237 +38430,327 @@
             <Src CodePage="1252">
               <Data>\H{pages} Pages</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-38-21" Translated="2013-08-05T07-38-21" State="Validated">
+              <cur>
+                <Data>\H{pages} 페이지</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="1">
             <Src CodePage="1252">
               <Data>Each (non-silent) NSIS installer has a set of pages. Each page can be a NSIS built-in page or a custom page created by a user's function (with \L{../Docs/nsDialogs/Readme.html}{nsDialogs} or \L{../Docs/InstallOptions/Readme.html}{InstallOptions} for example).</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-38-36" Translated="2013-08-05T07-38-36" State="Validated">
+              <cur>
+                <Data>(무인설치가 아닌) 모든 NSIS 인스톨러는 일련의 페이지들을 가지고 있습니다. 각 페이지는 NSIS에 내장된 페이지이거나 사용자 함수에 의해 생성된 사용자 정의 페이지 일 수 있습니다(\L{../Docs/nsDialogs/Readme.html}{nsDialogs} 또는 \L{../Docs/InstallOptions/Readme.html}{InstallOptions} 를 참조하세요).</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="2">
             <Src CodePage="1252">Using the script you can control the pages' order, appearance, and behavior. You can skip pages, paint them white, force the user to stay in a certain page until a certain condition is met, show a readme page, show custom designed pages for input and more. In this section, you will learn how to control all of the above.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-38-56" Translated="2013-08-05T07-38-56" State="Validated">
+              <cur>스크립트를 사용하여 페이지 순서, 외양, 행동 등을 조절 할 수 있습니다. 페이지를 넘기거나 하얗게 색을 칠하거나 특정 조건이 될 때 까지 특정 페이지에 계속 머무르게 하거나, 읽어보기 페이지를 보여주거나, 입력이나 그 이상을 위하여 사용자 정의된 페이지를 보여줄 수 있습니다. 이 섹션에서 이러한 모든 것을 배울 수 있습니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="3">
             <Src CodePage="1252">
               <Data>There are two basic commands regarding pages, \R{page}{Page} and \R{uninstpage}{UninstPage}. The first adds a page to the installer, the second adds a page to the uninstaller. On top of those two there is the \R{pageex}{PageEx} command which allows you to add a page to either one and with greater amount of options. \R{pageex}{PageEx} allows you to set options to the specific page you are adding instead of using the default that's set outside of \R{pageex}{PageEx}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-39-12" Translated="2013-08-05T07-39-12" State="Validated">
+              <cur>
+                <Data>페이지를 다루는 기본적으로 두 가지 명령이 있습니다. \R{page}{Page} 와 \R{uninstpage}{UninstPage} 입니다. 첫번째 명령은 인스톨러에 페이지를 추가하고 두번째 명령은 언인스톨러에 페이지를 추가합니다. 이 둘 명령 위에 더욱 많은 옵션과 함께 인스톨러, 언인스톨러 양쪽 모두에 페이지를 추가할 수 있는 \R{pageex}{PageEx} 명령이 있습니다. \R{pageex}{PageEx} 명령은 \R{pageex}{PageEx} 외부에서 설정된 기본값을 사용하는 대신 추가하려는 페이지의 옵션을 설정할 수 있습니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="4">
             <Src CodePage="1252">
               <Data>\S{pageoreder} Ordering</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-39-55" Translated="2013-08-05T07-39-55" State="Validated">
+              <cur>
+                <Data>\S{pageoreder} 페이지 배열</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="5">
             <Src CodePage="1252">
               <Data>The page order is set simply by the order \R{page}{Page}, \R{uninstpage}{UninstPage} and \R{pageex}{PageEx} appear in the script. For example:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-39-58" Translated="2013-08-05T07-39-58" State="Validated">
+              <cur>
+                <Data>페이지의 순서는 \R{page}{Page},\R{uninstpage}{UninstPage} 와 \R{pageex}{PageEx} 가 스크립트에서 나타나는 순서대로 간단히 설정됩니다. 예제\0x20</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="6">
             <Src CodePage="1252">
               <Data>\c  Page license</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-38-30" State="Validated"/>
           </Vl>
           <Vl Index="7">
             <Src CodePage="1252">
               <Data>\c  Page components</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-38-30" State="Validated"/>
           </Vl>
           <Vl Index="8">
             <Src CodePage="1252">
               <Data>\c  Page directory</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-38-30" State="Validated"/>
           </Vl>
           <Vl Index="9">
             <Src CodePage="1252">
               <Data>\c  Page instfiles</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-38-30" State="Validated"/>
           </Vl>
           <Vl Index="10">
             <Src CodePage="1252">
               <Data>\c  UninstPage uninstConfirm</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-38-30" State="Validated"/>
           </Vl>
           <Vl Index="11">
             <Src CodePage="1252">
               <Data>\c  UninstPage instfiles</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-38-30" State="Validated"/>
           </Vl>
           <Vl Index="12">
             <Src CodePage="1252">This code will tell NSIS to first show the license page, then the components selection page, then the directory selection page and finally the install log where sections are executed, just like in old installers. The uninstaller will first show the uninstall confirmation page and then the uninstallation log.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-40-07" Translated="2013-08-05T07-40-07" State="Validated">
+              <cur>이 코드는 NSIS 가 처음에 라이센스 페이지를 보여주면 컴포넌트 페이지를 보여줍니다. 그리고 디렉토리 선택 페이지를 보여주고 마치 예전 인스톨러처럼 섹션들이 실행되는 인스톨 로그 페이지를 보여줍니다. 언인스톨러는 설치제거 확인 페이지를 보여주고 설치제거 로그 페이지로 넘어갑니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="13">
             <Src CodePage="1252">You can specify the same page type more than once.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-41-01" Translated="2013-08-05T07-41-01" State="Validated">
+              <cur>한 번 이상 같은 페이지 형식을 설정할 수 있습니다.\0x20</cur>
+            </Trg>
           </Vl>
           <Vl Index="14">
             <Src CodePage="1252">
               <Data>For backwards compatibility with old NSIS scripts, the following installer pages will be added if no installer page commands are used: license (if \R{alicensetext}{LicenseText} and \R{alicensedata}{LicenseData} were specified), components (if \R{acomponenttext}{ComponentText} was specified and there is more than one visible section), directory (if \R{adirtext}{DirText} was specified) and instfiles. When there are no uninstaller page commands, the following uninstaller pages will be added: uninstall confirmation page (if \R{auninstalltext}{UninstallText} was specified) and instfiles. This method is deprecated, converting scripts to use page commands is highly recommended because you can use the new standard language strings.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-41-07" Translated="2013-08-05T07-41-07" State="Validated">
+              <cur>
+                <Data>예전 NSIS 스크립트와의 하위 호환성을 위하여 인스톨러 페이지 명령이 사용되지 않으면 아래와 같은 인스톨러 페이지 들이 추가됩니다 : license ( \R{alicensetext}{LicenseText} 와 \R{alicensedata}{LicenseData} 이 지정될 때), components (\R{acomponenttext}{ComponentText} 이 정의되고 하나 이상의 보이는 섹션이 있을 때), directory (\R{adirtext}{DirText} 이 설정 될 때) 와 instfiles. 언인스톨러 페이지 명령이 없을 때, 아래와 같은 페이지들이 추가됩니다 : 설치제거 확인 페이지-uninstConfirm (\R{auninstalltext}{UninstallText} 이 설정 될 때) 와 instfiles. 이러한 방법은 이제 지원되지 않기때문에 페이지 명령을 사용하여 스크립트를 변환하는 겄이 새로운 표준 언어 문자열을 사용 할 수 있기 때문에 강력히 권장됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="15">
             <Src CodePage="1252">
               <Data>\S{pageoptions} Page Options</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-41-56" Translated="2013-08-05T07-41-56" State="Validated">
+              <cur>
+                <Data>\S{pageoptions} 페이지 옵션</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="16">
             <Src CodePage="1252">
               <Data>Each page has its unique set of data that defines how it will look and act. This section describes what data each type of page uses and how you can set it. \R{pagecallbacks_explain}{Callback functions} are described below and are not dealt with in this section.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-42-01" Translated="2013-08-05T07-42-01" State="Validated">
+              <cur>
+                <Data>각 페이지는 외양과 행동을 결정하는 특별한 설정을 가지고 있습니다. 이 섹션은 각 데이터 페이지의 형태와 어떻게 설정하는 지 설명합니다. \R{pagecallbacks_explain}{콜백 함수} 는 밑에 설명되어 있으며 이 섹션에서 다루지 않습니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="17">
             <Src CodePage="1252">
               <Data>The list below lists what commands affect the certain page type. Unless mentioned otherwise, these commands can be used both in and out of a \R{pageex}{PageEx} block. If used inside a \R{pageex}{PageEx} block they will only affect the current page being set by \R{pageex}{PageEx}, else they will set the default for every other page.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-42-12" Translated="2013-08-05T07-42-12" State="Validated">
+              <cur>
+                <Data>아래의 목록은 특정 페이지 형태에 영향을 주는 명령입니다. 특별한 언급이 없으면 \R{pageex}{PageEx} 블럭 내/외부 모두에서 사용할 수 있습니다. \R{pageex}{PageEx} 블럭 내부에서 사용하면 \R{pageex}{PageEx} 에 의해 설정되는 현재 페이지에만 작용하지만 외부에서는 다른 모든 페이지에 영향을 미칩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="18">
             <Src CodePage="1252">
               <Data>\e{License page}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-42-48" Translated="2013-08-05T07-42-48" State="Validated">
+              <cur>
+                <Data>\e{라이센스 페이지}</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="19">
             <Src CodePage="1252">
               <Data>\b \R{alicensetext}{LicenseText}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-42-52" State="Validated"/>
           </Vl>
           <Vl Index="20">
             <Src CodePage="1252">
               <Data>\b \R{alicensedata}{LicenseData}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-42-52" State="Validated"/>
           </Vl>
           <Vl Index="21">
             <Src CodePage="1252">
               <Data>\b \R{alicenseforceselection}{LicenseForceSelection}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-42-52" State="Validated"/>
           </Vl>
           <Vl Index="22">
             <Src CodePage="1252">
               <Data>\e{Components selection page}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-42-54" Translated="2013-08-05T07-42-54" State="Validated">
+              <cur>
+                <Data>\e{컴포넌트 선택 페이지}</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="23">
             <Src CodePage="1252">
               <Data>\b \R{acomponenttext}{ComponentText}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-42-55" State="Validated"/>
           </Vl>
           <Vl Index="24">
             <Src CodePage="1252">
               <Data>\e{Directory selection page}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-42-55" State="Validated"/>
           </Vl>
           <Vl Index="25">
             <Src CodePage="1252">
               <Data>\b \R{adirtext}{DirText}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-42-55" State="Validated"/>
           </Vl>
           <Vl Index="26">
             <Src CodePage="1252">
               <Data>\b \R{adirvar}{DirVar} - can only be used in \R{pageex}{PageEx}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-43-02" Translated="2013-08-05T07-43-02" State="Validated">
+              <cur>
+                <Data>\b \R{adirvar}{DirVar} - \R{pageex}{PageEx} 에서만 사용가능</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="27">
             <Src CodePage="1252">
               <Data>\b \R{adirverify}{DirVerify}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-42-55" State="Validated"/>
           </Vl>
           <Vl Index="28">
             <Src CodePage="1252">
               <Data>\e{Un/Installation log page}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-43-12" Translated="2013-08-05T07-43-12" State="Validated">
+              <cur>
+                <Data>\e{설치/제거 로그 페이지}</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="29">
             <Src CodePage="1252">
               <Data>\b \R{adetailsbuttontext}{DetailsButtonText}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-43-17" State="Validated"/>
           </Vl>
           <Vl Index="30">
             <Src CodePage="1252">
               <Data>\b \R{acompletedtext}{CompletedText}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-43-17" State="Validated"/>
           </Vl>
           <Vl Index="31">
             <Src CodePage="1252">
               <Data>\e{Uninstall confirmation page}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-43-19" Translated="2013-08-05T07-43-19" State="Validated">
+              <cur>
+                <Data>\e{설치제거 확인 페이지}</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="32">
             <Src CodePage="1252">
               <Data>\b \R{adirvar}{DirVar} - can only be used in \R{pageex}{PageEx}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-43-05" Translated="2013-08-05T07-43-05" State="Validated">
+              <cur>
+                <Data>\b \R{adirvar}{DirVar} - \R{pageex}{PageEx} 에서만 사용가능</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="33">
             <Src CodePage="1252">
               <Data>\b \R{auninstalltext}{UninstallText}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-43-20" State="Validated"/>
           </Vl>
           <Vl Index="34">
             <Src CodePage="1252">
               <Data>To set the page caption use \R{acaption}{Caption}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-43-23" Translated="2013-08-05T07-43-23" State="Validated">
+              <cur>
+                <Data>페이지의 표제를 설정하려면 \R{acaption}{Caption} 를 사용합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="35">
             <Src CodePage="1252">
               <Data>\S{pagecallbacks_explain} Callbacks</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-43-28" Translated="2013-08-05T07-43-28" State="Validated">
+              <cur>
+                <Data>\S{pagecallbacks_explain} 콜백 함수</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="36">
             <Src CodePage="1252">Each built-in page has three callback functions: the pre-function, the show-creation function and the leave-function. The pre-function is called right before the page is created, the show-function is called right after it is created and before it is shown and the leave-function is called right after the user has pressed the next button and before the page is left.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-43-35" Translated="2013-08-05T07-43-35" State="Validated">
+              <cur>각 내장된 페이지들은 세 개의 콜백 함수를 가지고 있습니다. 도입함수,생성출력 함수, 복귀함수 입니다. 도입함수는 페이지가 생성되기 직전에 호출되고, 생성출력함수 는 페이지가 생성되고 출력되기 직전에 호출됩니다. 복귀함수는 사용자가 다음 버튼을 누르고 페이지를 떠나기 직전에 호출됩니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="37">
             <Src CodePage="1252">
               <Data>\b The pre-function allows you to skip the page using \R{abort}{Abort}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-44-15" Translated="2013-08-05T07-44-15" State="Validated">
+              <cur>
+                <Data>\b 도입함수에서 \R{abort}{Abort} 를 사용하여 페이지를 건너뛸 수 있습니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="38">
             <Src CodePage="1252">
               <Data>\b The show-function allows you to tweak the page's user interface with \R{createfont}{CreateFont}, \R{setctlcolors}{SetCtlColors}, \R{sendmessage}{SendMessage} and others.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-44-19" Translated="2013-08-05T07-44-19" State="Validated">
+              <cur>
+                <Data>\b 생성출력함수에서 \R{createfont}{CreateFont}, \R{setctlcolors}{SetCtlColors}, \R{sendmessage}{SendMessage} 등을 사용하여 사용자 인터페이스를 수정할 수 있습니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="39">
             <Src CodePage="1252">
               <Data>\b The leave-function allows you to force the user to stay on the current page using \R{abort}{Abort}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-44-32" Translated="2013-08-05T07-44-32" State="Validated">
+              <cur>
+                <Data>\b 복귀 함수에서 \R{abort}{Abort} 명령을 사용하여 사용자가 현재 페이지에 머무르게 할 수 있습니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="40">
             <Src CodePage="1252">A custom page only has two callback functions, one that creates it which is mandatory, and one leave-function that acts just like the leave-function for built-in pages.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-44-36" Translated="2013-08-05T07-44-36" State="Validated">
+              <cur>사용자 정의 페이지는 두 개의 콜백 함수만 가지고 있습니다. 하나는 페이지 생성을 전담하는 함수이고 다른 하나는 내장된 페이지의 복귀함수와 같은 행동을 하는 복귀함수 입니다</cur>
+            </Trg>
           </Vl>
           <Vl Index="41">
             <Src CodePage="1252">Examples:</Src>
@@ -38560,19 +38762,19 @@
             <Src CodePage="1252">
               <Data>\c  Page license skipLicense "" stayInLicense</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-46" State="Validated"/>
           </Vl>
           <Vl Index="43">
             <Src CodePage="1252">
               <Data>\c  Page custom customPage "" ": custom page"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-46" State="Validated"/>
           </Vl>
           <Vl Index="44">
             <Src CodePage="1252">
               <Data>\c  Page instfiles</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-38-30" State="Validated"/>
           </Vl>
           <Vl Index="45">
             <Src CodePage="1252">
@@ -38584,25 +38786,25 @@
             <Src CodePage="1252">
               <Data>\c  Function skipLicense</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-47" State="Validated"/>
           </Vl>
           <Vl Index="47">
             <Src CodePage="1252">
               <Data>\c    MessageBox MB_YESNO "Do you want to skip the license page?" IDNO no</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-47" State="Validated"/>
           </Vl>
           <Vl Index="48">
             <Src CodePage="1252">
               <Data>\c      Abort</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-47" State="Validated"/>
           </Vl>
           <Vl Index="49">
             <Src CodePage="1252">
               <Data>\c    no:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-47" State="Validated"/>
           </Vl>
           <Vl Index="50">
             <Src CodePage="1252">
@@ -38620,25 +38822,25 @@
             <Src CodePage="1252">
               <Data>\c  Function stayInLicense</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-49" State="Validated"/>
           </Vl>
           <Vl Index="53">
             <Src CodePage="1252">
               <Data>\c    MessageBox MB_YESNO "Do you want to stay in the license page?" IDNO no</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-49" State="Validated"/>
           </Vl>
           <Vl Index="54">
             <Src CodePage="1252">
               <Data>\c      Abort</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-47" State="Validated"/>
           </Vl>
           <Vl Index="55">
             <Src CodePage="1252">
               <Data>\c    no:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-47" State="Validated"/>
           </Vl>
           <Vl Index="56">
             <Src CodePage="1252">
@@ -38656,61 +38858,61 @@
             <Src CodePage="1252">
               <Data>\c  Function customPage</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-51" State="Validated"/>
           </Vl>
           <Vl Index="59">
             <Src CodePage="1252">
               <Data>\c    GetTempFileName $R0</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-51" State="Validated"/>
           </Vl>
           <Vl Index="60">
             <Src CodePage="1252">
               <Data>\c    File /oname=$R0 customPage.ini</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-51" State="Validated"/>
           </Vl>
           <Vl Index="61">
             <Src CodePage="1252">
               <Data>\c    InstallOptions::dialog $R0</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-51" State="Validated"/>
           </Vl>
           <Vl Index="62">
             <Src CodePage="1252">
               <Data>\c    Pop $R1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-51" State="Validated"/>
           </Vl>
           <Vl Index="63">
             <Src CodePage="1252">
               <Data>\c    StrCmp $R1 "cancel" done</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-51" State="Validated"/>
           </Vl>
           <Vl Index="64">
             <Src CodePage="1252">
               <Data>\c    StrCmp $R1 "back" done</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-51" State="Validated"/>
           </Vl>
           <Vl Index="65">
             <Src CodePage="1252">
               <Data>\c    StrCmp $R1 "success" done</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-51" State="Validated"/>
           </Vl>
           <Vl Index="66">
             <Src CodePage="1252">
               <Data>\c    error: MessageBox MB_OK|MB_ICONSTOP "InstallOptions error:$\r$\n$R1"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-51" State="Validated"/>
           </Vl>
           <Vl Index="67">
             <Src CodePage="1252">
               <Data>\c    done:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-44-51" State="Validated"/>
           </Vl>
           <Vl Index="68">
             <Src CodePage="1252">
@@ -38722,151 +38924,197 @@
             <Src CodePage="1252">
               <Data>\S{page} Page</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-46-28" Translated="2013-08-05T07-46-28" State="Validated"/>
           </Vl>
           <Vl Index="70">
             <Src CodePage="1252">
               <Data>\c custom [creator_function] [leave_function] [caption] [/ENABLECANCEL]</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-45-04" State="Validated"/>
           </Vl>
           <Vl Index="71">
             <Src CodePage="1252">
               <Data>\c   OR</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-45-04" State="Validated"/>
           </Vl>
           <Vl Index="72">
             <Src CodePage="1252">
               <Data>\c internal_page_type [pre_function] [show_function] [leave_function] [/ENABLECANCEL]</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-45-04" State="Validated"/>
           </Vl>
           <Vl Index="73">
             <Src CodePage="1252">Adds an installer page. See the above sections for more information about built-in versus custom pages and about callback functions.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-45-10" Translated="2013-08-05T07-45-10" State="Validated">
+              <cur>인스톨러에 페이지를 추가합니다. 사용자 정의 페이지에 대비하여 내장된 페이지와 콜백 함수에 대한 정보는 위 섹션을 참조하세요.</cur>
+            </Trg>
           </Vl>
           <Vl Index="74">
             <Src CodePage="1252">
               <Data>\e{internal_page_type} can be:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-45-30" Translated="2013-08-05T07-45-30" State="Validated">
+              <cur>
+                <Data>\e{internal_page_type} 는 아래와 같은 형식이 될 수 있습니다 :</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="75">
             <Src CodePage="1252">
               <Data>\b \e{license} - license page</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-45-33" Translated="2013-08-05T07-45-33" State="Validated">
+              <cur>
+                <Data>\b \e{license} - 라이센스 페이지</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="76">
             <Src CodePage="1252">
               <Data>\b \e{components} - components selection page</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-45-35" Translated="2013-08-05T07-45-35" State="Validated">
+              <cur>
+                <Data>\b \e{components} - 컴포넌트 선택 페이지</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="77">
             <Src CodePage="1252">
               <Data>\b \e{directory} - installation directory selection page</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-45-37" Translated="2013-08-05T07-45-37" State="Validated">
+              <cur>
+                <Data>\b \e{directory} - 설치 디렉토리 선택 페이지</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="78">
             <Src CodePage="1252">
               <Data>\b \e{instfiles} - installation page where the sections are executed</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-45-42" Translated="2013-08-05T07-45-42" State="Validated">
+              <cur>
+                <Data>\b \e{instfiles} - 섹션이 실행되는 장소의 설치 페이지</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="79">
             <Src CodePage="1252">
               <Data>\b \e{uninstConfirm} - uninstall confirmation page</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-45-45" Translated="2013-08-05T07-45-45" State="Validated">
+              <cur>
+                <Data>\b \e{uninstConfirm} - 설치제거 확인 페이지</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="80">
             <Src CodePage="1252">
               <Data>The last page of the installer has its cancel button disabled to prevent confusion. To enable it anyway, use \e{/ENABLECANCEL}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-45-49" Translated="2013-08-05T07-45-49" State="Validated">
+              <cur>
+                <Data>설치관리자의 마지막 페이지는 혼란을 막기위해 취소 버튼이 비활성화되어있습니다. 활성화려면 \e{/ENABLECANCEL} 를 사용하세요.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="81">
             <Src CodePage="1252">
               <Data>\S{uninstpage} UninstPage</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-46-25" Translated="2013-08-05T07-46-25" State="Validated"/>
           </Vl>
           <Vl Index="82">
             <Src CodePage="1252">
               <Data>\c custom [creator_function] [leave_function] [caption] [/ENABLECANCEL]</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-45-04" State="Validated"/>
           </Vl>
           <Vl Index="83">
             <Src CodePage="1252">
               <Data>\c   OR</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-45-04" State="Validated"/>
           </Vl>
           <Vl Index="84">
             <Src CodePage="1252">
               <Data>\c internal_page_type [pre_function] [show_function] [leave_function] [/ENABLECANCEL]</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-45-04" State="Validated"/>
           </Vl>
           <Vl Index="85">
             <Src CodePage="1252">Adds an uninstaller page. See the above sections for more information about built-in versus custom pages and about callback functions.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-46-11" Translated="2013-08-05T07-46-11" State="Validated">
+              <cur>설치제거관리자에 페이지를 추가합니다. 사용자 정의 페이지에 대비하여 내장된 페이지와 콜백 함수에 대한 정보는 위 섹션을 참조하세요.</cur>
+            </Trg>
           </Vl>
           <Vl Index="86">
             <Src CodePage="1252">
               <Data>See \R{page}{Page} for possible values of \e{internal_page_type}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-46-15" Translated="2013-08-05T07-46-15" State="Validated">
+              <cur>
+                <Data>\e{internal_page_type} 에 가능한 값은 \R{page}{Page} 을 참조하세요.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="87">
             <Src CodePage="1252">
               <Data>\S{pageex} PageEx</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-46-18" Translated="2013-08-05T07-46-18" State="Validated">
+              <cur>
+                <Data>\e{internal_page_type} 에 가능한 값은 \R{page}{Page} 을 참조하세요.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="88">
             <Src CodePage="1252">
               <Data>\c [un.](custom|uninstConfirm|license|components|directory|instfiles)</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-46-29" State="Validated"/>
           </Vl>
           <Vl Index="89">
             <Src CodePage="1252">
               <Data>Adds an installer page or an uninstaller page if the un. prefix was used. Every PageEx must have a matching \R{pageexend}{PageExEnd}. In a PageEx block you can set options that are specific to this page and will not be used for other pages. Options that are not set will revert to what was set outside the PageEx block or the default if nothing was set. To set the sub-caption for a page use \R{acaption}{Caption} or \R{asubcaption}{SubCaption} to set the default. To set the callback functions for a page set with PageEx use \R{pagecallbacks}{PageCallbacks}. See the above sections for more information about built-in versus custom pages.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-46-36" Translated="2013-08-05T07-46-36" State="Validated">
+              <cur>
+                <Data>인스톨러 또는 "un." 접두사를 사용하면 언인스톨러에 페이지를 추가합니다. 모든 PageEx 명령은 \R{pageexend}{PageExEnd} 명령과 짝을 이룹니다. PageEx 블럭에서 이 페이지에 대하여 그리고 다른 페이지에서 사용되지 않을 옵션을 설정할 수 있습니다. 설정하지 않은 옵션들은 PageEx 블럭 외부에서 설정한 옵션으로 복귀되거나 아무것도 설정하지 않으면 기본값이 사용됩니다. 페이지에 하위 표제를 설정하려면 \R{acaption}{Caption} 또는 기본값으로 설정하기 위해 \R{asubcaption}{SubCaption} 를 사용합니다. PageEx 명령으로 설정한 페이지에 대해 콜백 함수를 설정하려면 \R{pagecallbacks}{PageCallbacks} 를 사용합니다. 더 많은 정보는 위 섹션을 참조하세요.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="90">
             <Src CodePage="1252">Example usage:</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-47-03" Translated="2013-08-05T07-47-03" State="Validated">
+              <cur>사용 예제:</cur>
+            </Trg>
           </Vl>
           <Vl Index="91">
             <Src CodePage="1252">
               <Data>\c  PageEx license</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-47-05" State="Validated"/>
           </Vl>
           <Vl Index="92">
             <Src CodePage="1252">
               <Data>\c    LicenseText "Readme"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-47-05" State="Validated"/>
           </Vl>
           <Vl Index="93">
             <Src CodePage="1252">
               <Data>\c    LicenseData readme.rtf</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-47-05" State="Validated"/>
           </Vl>
           <Vl Index="94">
             <Src CodePage="1252">
               <Data>\c  PageExEnd</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-47-05" State="Validated"/>
           </Vl>
           <Vl Index="95">
             <Src CodePage="1252">
@@ -38878,67 +39126,75 @@
             <Src CodePage="1252">
               <Data>\c  PageEx license</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-47-05" State="Validated"/>
           </Vl>
           <Vl Index="97">
             <Src CodePage="1252">
               <Data>\c    LicenseData license.txt</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-47-07" State="Validated"/>
           </Vl>
           <Vl Index="98">
             <Src CodePage="1252">
               <Data>\c    LicenseForceSelection checkbox</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-47-07" State="Validated"/>
           </Vl>
           <Vl Index="99">
             <Src CodePage="1252">
               <Data>\c  PageExEnd</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-47-05" State="Validated"/>
           </Vl>
           <Vl Index="100">
             <Src CodePage="1252">
               <Data>\S{pageexend} PageExEnd</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-47-10" State="Validated"/>
           </Vl>
           <Vl Index="101">
             <Src CodePage="1252">
               <Data>Ends a \R{pageex}{PageEx} block.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-47-12" Translated="2013-08-05T07-47-12" State="Validated">
+              <cur>
+                <Data>\R{pageex}{PageEx} 블럭을 종료합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="102">
             <Src CodePage="1252">
               <Data>\S{pagecallbacks} PageCallbacks</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-47-19" State="Validated"/>
           </Vl>
           <Vl Index="103">
             <Src CodePage="1252">
               <Data>\c ([creator_function] [leave_function]) | ([pre_function] [show_function] [leave_function])</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-47-20" State="Validated"/>
           </Vl>
           <Vl Index="104">
             <Src CodePage="1252">
               <Data>Sets the callback functions for a page defined using \R{pageex}{PageEx}. Can only be used inside a \R{pageex}{PageEx} block. See the above sections for more information about callback functions.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T07-47-24" Translated="2013-08-05T07-47-24" State="Validated">
+              <cur>
+                <Data>\R{pageex}{PageEx} 를 사용하여 정의된 페이지의 콜백 함수를 설정합니다. \R{pageex}{PageEx} 블럭 내부에서만 사용할 수 있습니다. 콜백 함수에 대한 더 자세한 정보는 위 섹션을 참조하세요.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="105">
             <Src CodePage="1252">
               <Data>\c PageEx license</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-47-25" State="Validated"/>
           </Vl>
           <Vl Index="106">
             <Src CodePage="1252">
               <Data>\c   PageCallbacks licensePre licenseShow licenseLeave</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T07-47-26" State="Validated"/>
           </Vl>
           <Vl Index="107">
             <Src CodePage="1252">
@@ -38959,6 +39215,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -39126,6 +39383,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -39295,6 +39553,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -39377,125 +39636,141 @@
             <Src CodePage="1252">
               <Data>\S1{registry} Registry, INI, File Instructions</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" Translated="2013-08-05T11-24-22" State="Validated">
+              <cur>
+                <Data>\S1{registry} 레지스트리, INI, 파일 명령</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="1">
             <Src CodePage="1252">In all of the below registry instructions use an empty string (just two quotes with nothing between them - "") as the key name to specify the default key which is shown as (Default) in regedit.exe.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" Translated="2013-08-05T11-25-17" State="Validated">
+              <cur>아래의 모든 레지스트리 명령에서 regedit.exe 에서 (기본값) 이라고 표시 되는 키값을 지정하려면 빈문자열을 사용합니다("").</cur>
+            </Trg>
           </Vl>
           <Vl Index="2">
             <Src CodePage="1252">If a full path is not specified for any of the INI handling instructions, the Windows directory will be used.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" Translated="2013-08-05T11-25-54" State="Validated">
+              <cur>INI 파일을 다루는 명령에서 완전한 경로가 지정되지 않으면 윈도 디렉토리가 사용됩니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="3">
             <Src CodePage="1252">
               <Data>\S2{deleteinisec} DeleteINISec</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T11-25-43" State="Validated"/>
           </Vl>
           <Vl Index="4">
             <Src CodePage="1252">
               <Data>\c ini_filename section_name</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T11-25-44" State="Validated"/>
           </Vl>
           <Vl Index="5">
             <Src CodePage="1252">Deletes the entire section [section_name] from ini_filename. If the section could not be removed from the ini file, the error flag is set. It does not set the error flag if the section could not be found.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" Translated="2013-08-05T11-26-14" State="Validated">
+              <cur>ini_filename 의 [section_name] 섹션 전체를 삭제합니다. 삭제하는 도중 에러가 발생하면 에러 플래그가 설정됩니다. 섹션을 찾을 수 없을 때는 에러 플래그가 설정되지 않습니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="6">
             <Src CodePage="1252">
               <Data>\c WriteINIStr $TEMP\something.ini section1 something 123</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T11-25-57" State="Validated"/>
           </Vl>
           <Vl Index="7">
             <Src CodePage="1252">
               <Data>\c WriteINIStr $TEMP\something.ini section1 somethingelse 1234</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T11-25-57" State="Validated"/>
           </Vl>
           <Vl Index="8">
             <Src CodePage="1252">
               <Data>\c WriteINIStr $TEMP\something.ini section2 nsis true</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T11-25-57" State="Validated"/>
           </Vl>
           <Vl Index="9">
             <Src CodePage="1252">
               <Data>\c DeleteINISec $TEMP\something.ini section1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T11-25-57" State="Validated"/>
           </Vl>
           <Vl Index="10">
             <Src CodePage="1252">
               <Data>\S2{deleteinistr} DeleteINIStr</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T11-25-57" State="Validated"/>
           </Vl>
           <Vl Index="11">
             <Src CodePage="1252">
               <Data>\c ini_filename section_name str_name</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T11-25-57" State="Validated"/>
           </Vl>
           <Vl Index="12">
             <Src CodePage="1252">Deletes the string str_name from section [section_name] from ini_filename. If the string could not be removed from the ini file, the error flag is set. It does not set the error flag if the string could not be found.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" Translated="2013-08-05T11-26-22" State="Validated">
+              <cur>파일 ini_filename 에서 섹션 [section_name] 문자열 str_name 을 삭제합니다. 문자열을 삭제하는 도중 에러가 발생하면 에러 플래그가 설정됩니다. 문자열을 찾을 수 없을 때는 에러 플래그가 설정되지 않습니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="13">
             <Src CodePage="1252">
               <Data>\c WriteINIStr $TEMP\something.ini section1 something 123</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T11-25-57" State="Validated"/>
           </Vl>
           <Vl Index="14">
             <Src CodePage="1252">
               <Data>\c WriteINIStr $TEMP\something.ini section1 somethingelse 1234</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T11-25-57" State="Validated"/>
           </Vl>
           <Vl Index="15">
             <Src CodePage="1252">
               <Data>\c DeleteINIStr $TEMP\something.ini section1 somethingelse</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T11-26-00" State="Validated"/>
           </Vl>
           <Vl Index="16">
             <Src CodePage="1252">
               <Data>\S2{deleteregkey} DeleteRegKey</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T11-26-00" State="Validated"/>
           </Vl>
           <Vl Index="17">
             <Src CodePage="1252">
               <Data>\c [/ifempty] root_key subkey</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T11-26-00" State="Validated"/>
           </Vl>
           <Vl Index="18">
             <Src CodePage="1252">
               <Data>Deletes a registry key. If /ifempty is specified, the registry key will only be deleted if it has no subkeys (otherwise, the whole registry tree will be removed). Valid values for root_key are listed under \R{writeregstr}{WriteRegStr}. The error flag is set if the key could not be removed from the registry (or if it didn't exist to begin with).</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" Translated="2013-08-05T11-26-50" State="Validated">
+              <cur>
+                <Data>레지스트리 키를 삭제합니다. /ifempty 를 사용하면 서브키가 없을 때만 삭제됩니다(그렇지 않으면 하위키를 포함한 전체 레지스트리 구조가 삭제됩니다). 루트키로 유효한 목록은 \R{writeregstr}{WriteRegStr} 항목을 참조하세요. 키를 삭제할 수 없거나 키가 존재하지 않으면 에러 플래그가 설정됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="19">
             <Src CodePage="1252">
               <Data>\c DeleteRegKey HKLM "Software\My Company\My Software"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-01-08" State="Validated"/>
           </Vl>
           <Vl Index="20">
             <Src CodePage="1252">
               <Data>\c DeleteRegKey /ifempty HKLM "Software\A key that might have subkeys"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-01-08" State="Validated"/>
           </Vl>
           <Vl Index="21">
             <Src CodePage="1252">
               <Data>\S2{deleteregvalue} DeleteRegValue</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-01-08" State="Validated"/>
           </Vl>
           <Vl Index="22">
             <Src CodePage="1252">
@@ -39507,37 +39782,45 @@
             <Src CodePage="1252">
               <Data>Deletes a registry value. Valid values for root_key are listed under \R{writeregstr}{WriteRegStr}. The error flag is set if the value could not be removed from the registry (or if it didn't exist to begin with).</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" Translated="2013-08-05T12-01-20" State="Validated">
+              <cur>
+                <Data>레지스트리 값을 삭제합니다. 유효한 루트 키 목록은 \R{writeregstr}{WriteRegStr} 를 참조하세요. 값을 삭제할 수 없거나 첫째로 키가 존재하지 않으면 에러 플래그가 설정됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="24">
             <Src CodePage="1252">
               <Data>\c DeleteRegValue HKLM "Software\My Company\My Software" "some value"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-01-22" State="Validated"/>
           </Vl>
           <Vl Index="25">
             <Src CodePage="1252">
               <Data>\S2{enumregkey} EnumRegKey</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-01-22" State="Validated"/>
           </Vl>
           <Vl Index="26">
             <Src CodePage="1252">
               <Data>\c user_var(output) root_key subkey index</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-01-22" State="Validated"/>
           </Vl>
           <Vl Index="27">
             <Src CodePage="1252">
               <Data>Set user variable $x with the name of the 'index'th registry key in root_key\\Subkey. Valid values for root_key are listed under \R{writeregstr}{WriteRegStr}. Returns an empty string if there are no more keys, and returns an empty string and sets the error flag if there is an error.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T12-03-54" Translated="2013-08-05T12-03-54" State="Validated">
+              <cur>
+                <Data>출력변수에 root_key\\subkey 내부의 'index' 번째의 레지스트리 키를 저장합니다. \R{writeregstr}{WriteRegStr} 를 사용할 때 루트키와 함께 사용할 수 있는 유효한 값입니다. 더 이상 키가 없으면 빈 문자열을 반환하고 에러가 발생하면 빈문자열을 반환하며 에러 플래그를 설정합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="28">
             <Src CodePage="1252">
               <Data>\c StrCpy $0 0</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-01-25" State="Validated"/>
           </Vl>
           <Vl Index="29">
             <Src CodePage="1252">
@@ -39549,7 +39832,7 @@
             <Src CodePage="1252">
               <Data>\c   EnumRegKey $1 HKLM Software $0</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-01-26" State="Validated"/>
           </Vl>
           <Vl Index="31">
             <Src CodePage="1252">
@@ -39561,13 +39844,13 @@
             <Src CodePage="1252">
               <Data>\c   IntOp $0 $0 + 1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-01-26" State="Validated"/>
           </Vl>
           <Vl Index="33">
             <Src CodePage="1252">
               <Data>\c   MessageBox MB_YESNO|MB_ICONQUESTION "$1$\n$\nMore?" IDYES loop</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-01-27" State="Validated"/>
           </Vl>
           <Vl Index="34">
             <Src CodePage="1252">
@@ -39579,25 +39862,29 @@
             <Src CodePage="1252">
               <Data>\S2{enumregvalue} EnumRegValue</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-02-59" State="Validated"/>
           </Vl>
           <Vl Index="36">
             <Src CodePage="1252">
               <Data>\c user_var(output) root_key subkey index</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-01-22" State="Validated"/>
           </Vl>
           <Vl Index="37">
             <Src CodePage="1252">
               <Data>Set user variable $x with the name of the 'index'th registry value in root_key\\Subkey. Valid values for root_key are listed under \R{writeregstr}{WriteRegStr}. Returns an empty string and sets the error flag if there are no more values or if there is an error.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T12-04-03" Translated="2013-08-05T12-04-03" State="Validated">
+              <cur>
+                <Data>출력변수에 root_key\\Subkey 내부의 'index' 번째의 레지스트리 값을 저장합니다. \R{writeregstr}{WriteRegStr} 를 사용할 때 루트키와 함께 사용할 수 있는 유효한 값입니다. 더 이상 값이 없거나 에러가 발생하면 빈 문자열을 반환하고 에러 플래그를 설정합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="38">
             <Src CodePage="1252">
               <Data>\c StrCpy $0 0</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-01-25" State="Validated"/>
           </Vl>
           <Vl Index="39">
             <Src CodePage="1252">
@@ -39609,37 +39896,37 @@
             <Src CodePage="1252">
               <Data>\c   ClearErrors</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-03-02" State="Validated"/>
           </Vl>
           <Vl Index="41">
             <Src CodePage="1252">
               <Data>\c   EnumRegValue $1 HKLM Software\Microsoft\Windows\CurrentVersion $0</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-03-02" State="Validated"/>
           </Vl>
           <Vl Index="42">
             <Src CodePage="1252">
               <Data>\c   IfErrors done</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-03-02" State="Validated"/>
           </Vl>
           <Vl Index="43">
             <Src CodePage="1252">
               <Data>\c   IntOp $0 $0 + 1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-01-26" State="Validated"/>
           </Vl>
           <Vl Index="44">
             <Src CodePage="1252">
               <Data>\c   ReadRegStr $2 HKLM Software\Microsoft\Windows\CurrentVersion $1</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-03-04" State="Validated"/>
           </Vl>
           <Vl Index="45">
             <Src CodePage="1252">
               <Data>\c   MessageBox MB_YESNO|MB_ICONQUESTION "$1 = $2$\n$\nMore?" IDYES loop</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-03-04" State="Validated"/>
           </Vl>
           <Vl Index="46">
             <Src CodePage="1252">
@@ -39651,43 +39938,51 @@
             <Src CodePage="1252">
               <Data>\S2{expandenvstrings} ExpandEnvStrings</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-03-05" State="Validated"/>
           </Vl>
           <Vl Index="48">
             <Src CodePage="1252">
               <Data>\c user_var(output) string</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-03-05" State="Validated"/>
           </Vl>
           <Vl Index="49">
             <Src CodePage="1252">
               <Data>Expands environment variables in \e{string} into the user variable \e{$x}. If an environment variable doesn't exist, it will not be replaced. For example, if you use "%var%" and var doesn't exists, the result will be "%var%". If there is an error, the variable is set to empty, and the error flag is set.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>
+                <Data>\e{string} 내부의 환경 변수들을 변환 하여 출력변수 \e{$x}에 저장합니다. 환경 변수가 존재하지 않으면 변환되지 않습니다. 예, "%var%"을 사용하고 var 이 존재하지 않으면 변수에는 그대로 "%var%" 가 저장됩니다. 에러가 발생하면 변수에는 빈문자열이 설정되고 에러 플래그가 설정됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="50">
             <Src CodePage="1252">
               <Data>\c ExpandEnvStrings $0 "WINDIR=%WINDIR%$\nTEMP=%TEMP%"</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-04-07" State="Validated"/>
           </Vl>
           <Vl Index="51">
             <Src CodePage="1252">
               <Data>\S2{flushini} FlushINI</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-04-07" State="Validated"/>
           </Vl>
           <Vl Index="52">
             <Src CodePage="1252">
               <Data>\c ini_filename</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-04-07" State="Validated"/>
           </Vl>
           <Vl Index="53">
             <Src CodePage="1252">
               <Data>Flushes the INI file's buffers. Windows 9x keeps all changes to the INI file in memory. This command causes the changes to be written to the disk immediately. Use it if you edit the INI manually, delete it, move it or copy it right after you change it with \R{writeinistr}{WriteINIStr}, \R{deleteinisec}{DeleteINISec} or \R{deleteinistr}{DeleteINStr}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>
+                <Data>INI 파일 버퍼를 비웁니다. 윈도 9x 들은 INI 파일의 모든 변환을 메모리 내에 유지합니다. 이 명령은 메모리의 내용을 즉각 디스크에 기록하게 합니다. \R{writeinistr}{WriteINIStr}, \R{deleteinisec}{DeleteINISec} 또는 \R{deleteinistr}{DeleteINStr} 를 사용해서 INI 파일을 직접 삭제, 이동, 복사 등을 하면 이 명령을 사용하세요.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="54">
             <Src CodePage="1252">
@@ -39721,7 +40016,9 @@
           </Vl>
           <Vl Index="59">
             <Src CodePage="1252">Reads from the environment string "name" and sets the value into the user variable $x. If there is an error reading the string, the user variable is set to empty, and the error flag is set.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>환경 변수 "name" 을 읽어 출력 변수에 저장합니다. 환경변수를 읽는 동안 에러가 발생하면 출력 변수는 빈문자열이 설정되고 에러 플래그가 설정됩니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="60">
             <Src CodePage="1252">
@@ -39749,7 +40046,9 @@
           </Vl>
           <Vl Index="64">
             <Src CodePage="1252">Reads from entry_name in [section_name] of ini_filename and stores the value into user variable $x. The error flag will be set and $x will be assigned to an empty string if the entry is not found.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>파일 ini_filename 의 섹션 [section_name] 의 항목 entry_name 을 읽어 데이터를 출력변수에 저장합니다. 항목을 찾을 수 없으면 에러 플래그가 설정되고 출력변수에는 빈 문자열이 설정됩니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="65">
             <Src CodePage="1252">
@@ -39773,7 +40072,11 @@
             <Src CodePage="1252">
               <Data>Reads a 32 bit DWORD from the registry into the user variable $x. Valid values for root_key are listed under \R{writeregstr}{WriteRegStr}. The error flag will be set and $x will be set to an empty string ("" which is 0) if the DWORD is not present. If the value is present, but is not a DWORD, it will be read as a string and the error flag will be set.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>
+                <Data>레지스트리에서 32비트 DWORD 값을 읽어 출력변수에 저장합니다. 유효한 루트 키 목록은 \R{writeregstr}{WriteRegStr} 를 참조하세요. DWORD 값이 존재하지 않으면 빈문자열("" 는 0) 이 저장됩니다. 값은 존재하지만 DWORD가 아닐경우 문자열로 읽고 에러 플래그가 설정됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="69">
             <Src CodePage="1252">
@@ -39797,7 +40100,11 @@
             <Src CodePage="1252">
               <Data>Reads from the registry into the user variable $x. Valid values for root_key are listed under \R{writeregstr}{WriteRegStr}. The error flag will be set and $x will be set to an empty string ("") if the string is not present. If the value is present, but is of type REG_DWORD, it will be read and converted to a string and the error flag will be set.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>
+                <Data>레지스트리에서 해당 문자열을 읽어 출력변수에 저장합니다. 유효한 루트 키 목록은 \R{writeregstr}{WriteRegStr} 를 참조하세요. 문자열이 존재하지 않으면 빈문자열("")이 반환되고 에러플래그가 설정됩니다. 값은 존재하지만 REG_DWORD 이면 문자열로 변환하여 읽고 에러 플래그가 설정됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="73">
             <Src CodePage="1252">
@@ -39825,25 +40132,27 @@
           </Vl>
           <Vl Index="77">
             <Src CodePage="1252">Writes entry_name=value into [section_name] of ini_filename. The error flag is set if the string could not be written to the ini file.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>파일 ini_filename 의 섹션 [section_name] 에 entry_name=value 항목을 기록합니다. 기록에 실패하면 에러 플래그가 설정됩니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="78">
             <Src CodePage="1252">
               <Data>\c WriteINIStr $TEMP\something.ini section1 something 123</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T11-25-57" State="Validated"/>
           </Vl>
           <Vl Index="79">
             <Src CodePage="1252">
               <Data>\c WriteINIStr $TEMP\something.ini section1 somethingelse 1234</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T11-25-57" State="Validated"/>
           </Vl>
           <Vl Index="80">
             <Src CodePage="1252">
               <Data>\c WriteINIStr $TEMP\something.ini section2 nsis true</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T11-25-57" State="Validated"/>
           </Vl>
           <Vl Index="81">
             <Src CodePage="1252">
@@ -39861,7 +40170,11 @@
             <Src CodePage="1252">
               <Data>This command writes a block of binary data to the registry. Valid values for root_key are listed under \R{writeregstr}{WriteRegStr}. Valuedata is in hexadecimal (e.g. DEADBEEF01223211151). The error flag is set if the binary data could not be written to the registry. If the registry key doesn't exist it will be created.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>
+                <Data>레지스트리에 이진 데이터 블럭을 기록합니다. 유효한 루트 키 목록은 \R{writeregstr}{WriteRegStr} 를 참조하세요. valuedata 값은 16진수 입니다(예. DEADBEEF01223211151). 데이터를 기록할 수 없으면 에러플래그가 설정됩니다. 키가 존재하지 않으면 생성됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="84">
             <Src CodePage="1252">
@@ -39885,7 +40198,11 @@
             <Src CodePage="1252">
               <Data>This command writes a dword (32 bit integer) to the registry (a user variable can be specified). Valid values for root_key are listed under \R{writeregstr}{WriteRegStr}. The error flag is set if the dword could not be written to the registry. If the registry key doesn't exist it will be created.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>
+                <Data>레지스트리에 DWORD(32비트 정수) 값을 기록합니다(출력 변수 지정도 가능합니다). 유효한 루트 키 목록은 \R{writeregstr}{WriteRegStr} 를 참조하세요. 레지스트리에 기록할 수 없으면 에러 플래그가 설정됩니다. 키가 존재하지 않으면 생성됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="88">
             <Src CodePage="1252">
@@ -39909,7 +40226,11 @@
             <Src CodePage="1252">
               <Data>Write a string to the registry. See \R{writeregexpandstr}{WriteRegExpandStr} for more details.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>
+                <Data>레지스트리에 문자열을 기록합니다. 더 자세한 정보는 \R{writeregexpandstr}{WriteRegExpandStr} 를 참조하세요.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="92">
             <Src CodePage="1252">
@@ -39933,67 +40254,109 @@
             <Src CodePage="1252">
               <Data>Write a string to the registry. \e{root_key} must be one of:</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>
+                <Data>레지스트리에 확장 문자열을 기록합니다.사용가능한 \e{root_key} 는 다음과 같습니다 :</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="96">
             <Src CodePage="1252">
               <Data>\b \e{HKCR} or \e{HKEY_CLASSES_ROOT}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>
+                <Data>\b \e{HKCR} 또는  \e{HKEY_CLASSES_ROOT}</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="97">
             <Src CodePage="1252">
               <Data>\b \e{HKLM} or \e{HKEY_LOCAL_MACHINE}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>
+                <Data>\b \e{HKLM} 또는  \e{HKEY_LOCAL_MACHINE}</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="98">
             <Src CodePage="1252">
               <Data>\b \e{HKCU} or \e{HKEY_CURRENT_USER}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>
+                <Data>\b \e{HKCU} 또는  \e{HKEY_CURRENT_USER}</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="99">
             <Src CodePage="1252">
               <Data>\b \e{HKU} or \e{HKEY_USERS}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>
+                <Data>\b \e{HKU} 또는  \e{HKEY_USERS}</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="100">
             <Src CodePage="1252">
               <Data>\b \e{HKCC} or \e{HKEY_CURRENT_CONFIG}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>
+                <Data>\b \e{HKCC} 또는  \e{HKEY_CURRENT_CONFIG}</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="101">
             <Src CodePage="1252">
               <Data>\b \e{HKDD} or \e{HKEY_DYN_DATA}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>
+                <Data>\b \e{HKDD} 또는  \e{HKEY_DYN_DATA}</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="102">
             <Src CodePage="1252">
               <Data>\b \e{HKPD} or \e{HKEY_PERFORMANCE_DATA}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>
+                <Data>\b \e{HKPD} 또는  \e{HKEY_PERFORMANCE_DATA}</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="103">
             <Src CodePage="1252">
               <Data>\b \e{SHCTX} or \e{SHELL_CONTEXT}</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>
+                <Data>\b \e{SHCTX} 또는  \e{SHELL_CONTEXT}</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="104">
             <Src CodePage="1252">
               <Data>If \e{root_key} is \e{SHCTX} or \e{SHELL_CONTEXT}, it will be replaced with \e{HKLM} if \R{setshellvarcontext}{SetShellVarContext} is set to \e{all} and with \e{HKCU} if \R{setshellvarcontext}{SetShellVarContext} is set to \e{current}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>
+                <Data>\e{root_key} 를 \e{SHCTX} 또는 \e{SHELL_CONTEXT} 로 지정하면 \R{setshellvarcontext}{SetShellVarContext} 의 값이 \e{all} 이면 \e{HKLM} 으로 \e{current} 이면 \e{HKCU} 로 변환됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="105">
             <Src CodePage="1252">
               <Data>The error flag is set if the string could not be written to the registry. The type of the string will be REG_SZ for \R{writeregstr}{WriteRegStr}, or REG_EXPAND_STR for \R{writeregexpandstr}{WriteRegExpandStr}. If the registry key doesn't exist it will be created.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T11-11-05" State="ForReview">
+              <cur>레지스트리에 기록할 수 없으면 에러 플래그가 설정됩니다. 문자열의 종류는 WriteRegStr 을 사용하면 REG_SZ 형태가 WriteRegExpandStr 을 사용하면 REG_EXPAND_STR 가 사용됩니다. 레지스트리 키가 없으면 생성됩니다</cur>
+            </Trg>
           </Vl>
           <Vl Index="106">
             <Src CodePage="1252">
@@ -40015,6 +40378,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -41367,6 +41731,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -41449,7 +41814,11 @@
             <Src CodePage="1252">
               <Data>\S1{secmanage} Section Management</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-36" State="ForReview">
+              <cur>
+                <Data>\S1{secmanage} 섹션 관리</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="1">
             <Src CodePage="1252">
@@ -41465,11 +41834,15 @@
           </Vl>
           <Vl Index="3">
             <Src CodePage="1252">Sets the section's flags. The flag is a 32 bit integer. The first bit (lowest) represents whether the section is currently selected, the second bit represents whether the section is a section group (don't modify this unless you really know what you are doing), the third bit represents whether the section is a section group end (again, don't modify), the fourth bit represents whether the section is shown in bold or not, the fifth bit represents whether the section is read-only, the sixth bit represents whether the section group is to be automatically expanded, the seventh bit is set for section groups which are partially selected, the eighth bit is internally used for partially selected section group toggling and the ninth bit is used for reflecting section name changes. The error flag will be set if an out of range section is specified.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-36" State="ForReview">
+              <cur>섹션 플래그를 설정합니다. 플래그 값은 32비트 정수입니다. 첫번째 비트(가장 낮은 값) 는 섹션이 현재 활성화되었는지를 나타냅니다. 두번째 비트는 섹션 그룹 여부를 나타내며 변경하지 않는 것을 권장합니다. 세번째 비트는 섹션 그룹의 마지막을 나타내며 역시 변경하지 않는 것을 권장합니다. 네번째 비트는 굵은 글씨 여부를 나타냅니다. 다섯번째 비트는 읽기 전용을 나타냅니다. 여섯번째 비트는 섹션그룹이 자동으로 펼쳐지는지 여부를 나타냅니다. 일곱번째 비트는 섹션그룹이 일부분만 선택되었는지 나타냅니다. 여덟번째 비트는 부분 선택된 섹션 그룹 전환에 내부적으로 사용됩니다. 아홉번째 비트는 섹션 이름 변경을 반영하는데 사용됩니다. 설정된 섹션의 범위가 벗어나면 에러플래그가 설정됩니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="4">
             <Src CodePage="1252">Each flag has a name, prefixed with `SF_`:</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-36" State="ForReview">
+              <cur>각 플래그는 'SF_' 라는 접두어로 된 이름을 가지고 있습니다 :</cur>
+            </Trg>
           </Vl>
           <Vl Index="5">
             <Src CodePage="1252">
@@ -41517,13 +41890,21 @@
             <Src CodePage="1252">
               <Data>For an example of usage please see the \L{../Examples/one-section.nsi}{one-section.nsi} example.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-36" State="ForReview">
+              <cur>
+                <Data>예제를 보려면 아래를 참조하세요 \L{../Examples/one-section.nsi}{one-section.nsi} 예제.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="13">
             <Src CodePage="1252">
               <Data>For more useful macros and definitions, see Include\\Sections.nsh.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-36" State="ForReview">
+              <cur>
+                <Data>유용한 매크로와 선언을 보려면 Include\\Sections.nsh 파일을 참조하세요.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="14">
             <Src CodePage="1252">
@@ -41587,7 +41968,9 @@
           </Vl>
           <Vl Index="24">
             <Src CodePage="1252">Retrieves the section's flags. See above for a description of the flag. The error flag will be set if an out of range section is specified.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-36" State="ForReview">
+              <cur>지정한 섹션의 플래그 값을 얻어옵니다. 플래그 값에 대한 위의 설명을 참조하세요. 설정된 섹션의 범위가 벗어나면 에러플래그가 설정됩니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="25">
             <Src CodePage="1252">
@@ -41657,7 +42040,9 @@
           </Vl>
           <Vl Index="36">
             <Src CodePage="1252">Sets the description for the section section_index. If the text is set to "" then the section will be hidden. The error flag will be set if an out of range section is specified.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-36" State="ForReview">
+              <cur>섹션 section_index 에 대한 설명을 설정합니다. 문자열이 빈문자열("") 이면 숨겨진 섹션이 됩니다. 설정된 섹션의 범위가 벗어나면 에러플래그가 설정됩니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="37">
             <Src CodePage="1252">
@@ -41715,7 +42100,9 @@
           </Vl>
           <Vl Index="46">
             <Src CodePage="1252">Stores the text description of the section section_index into the output. If the section is hidden, stores an empty string. The error flag will be set if an out of range section is specified.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-36" State="ForReview">
+              <cur>섹션 section_index 의 설명을 지정한 변수(output)에 저장합니다. 지정한 섹션이 숨김섹션이면 빈문자열("") 을 저장합니다. 설정된 섹션의 범위가 벗어나면 에러플래그가 설정됩니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="47">
             <Src CodePage="1252">
@@ -41785,7 +42172,9 @@
           </Vl>
           <Vl Index="58">
             <Src CodePage="1252">Sets the install types the section specified by section_index defaults to the enabled state in. Note that the section index starts with zero. Every bit of inst_types is a flag that tells if the section is in that install type or not. For example, if you have 3 install types and you want the first section to be included in install types 1 and 3, then the command should look like this:</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-36" State="ForReview">
+              <cur>section_index에 지정된 섹션을 inst_types 에 활성화된 상태로 설정합니다. 알림 : section_index 값은 0 부터 시작합니다. inst_type 의 모든 비트는 지정한 설치 타입에 포함여부를 알려주는 플래그입니다. 예를 들면, 3 가지의 인스톨 타입을 가지고 있고 첫번째 섹션이 인스톨 타입 1과 3에 포함되길 원하면 아래와 같은 명령을 사용합니다:</cur>
+            </Trg>
           </Vl>
           <Vl Index="59">
             <Src CodePage="1252">
@@ -41795,7 +42184,9 @@
           </Vl>
           <Vl Index="60">
             <Src CodePage="1252">because the binary value for 5 is "00000101". The error flag will be set if the section index specified is out of range.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-36" State="ForReview">
+              <cur>왜냐하면 5 의 이진수는 "00000101" 와 같기 때문입니다. 설정된 섹션의 범위가 벗어나면 에러플래그가 설정됩니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="61">
             <Src CodePage="1252">
@@ -41855,7 +42246,11 @@
             <Src CodePage="1252">
               <Data>Retrieves the install types flags array of a section. See above explanation about \R{sectionsetinsttypes}{SectionSetInstTypes} for a description of how to deal with the output. The error flag will be set if the section index specified is out of range.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-36" State="ForReview">
+              <cur>
+                <Data>섹션의 인스톨 형태 플래그 배열을 얻어옵니다. 출력 값을 다루는 설명은 \R{sectionsetinsttypes}{SectionSetInstTypes} 설명을 참조해주세요.설정된 섹션의 범위가 벗어나면 에러플래그가 설정됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="71">
             <Src CodePage="1252">
@@ -41925,7 +42320,9 @@
           </Vl>
           <Vl Index="82">
             <Src CodePage="1252">Sets the Size of the section specified by section_index. Note that the Index starts with Zero. The Value for Size must be entered in KiloByte and supports only whole numbers.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-36" State="ForReview">
+              <cur>section_index 로 지정한 섹션의 크기를 설정합니다. 알림 : 인덱스는 0 부터 시작합니다. new_size 는 반드시 킬로바이트(KiloByte) 단위로 입력하며 숫자만 지원합니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="83">
             <Src CodePage="1252">
@@ -41983,7 +42380,9 @@
           </Vl>
           <Vl Index="92">
             <Src CodePage="1252">Gets the Size of the section specified by section_index and stores the value in the given User Variable. Note that the Index starts with Zero.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-36" State="ForReview">
+              <cur>지정한 사용자 변수에 section_index 로 지정한 섹션의 크기를 얻어옵니다. 알림 : 인덱스는 0 부터 시작합니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="93">
             <Src CodePage="1252">
@@ -42055,7 +42454,11 @@
             <Src CodePage="1252">
               <Data>Sets the current \R{ainsttype}{InstType}. inst_type_idx should be between 0 and 31. The Error Flag is \\&lt;b\\&gt;not\\&lt;/b\\&gt; set if an out of range \R{ainsttype}{InstType} was used.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-36" State="ForReview">
+              <cur>
+                <Data>현재 InstType 을 설정합니다. inst_type_idx 는 반드시 0 과 31 사이여야합니다. InstType 값의 범위를 벗어나게 설정해도 에러 플래그는 설정되지 \\&lt;b\\&gt;않습니다\\&lt;/b\\&gt;.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="105">
             <Src CodePage="1252">
@@ -42073,7 +42476,11 @@
             <Src CodePage="1252">
               <Data>Get the current \R{ainsttype}{InstType} and stores it in user_var. If the first install type is selected, 0 will be put in user_var. If the second install type is selected, 1 will be put in user_var, and so on. The value of $\{NSIS_MAX_INST_TYPES\} (32 by default) means that the user selected a custom set of sections. Note that simply selecting "Custom" in the drop-down menu is not enough to trigger this. The value is calculated by the sections actually selected.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-36" State="ForReview">
+              <cur>
+                <Data>현재 InstType 을 얻어 사용자 변수에 저장합니다. 첫번째 인스톨 형태가 선택되어 있다면 0이 저장됩니다. 두번째 인스톨 형태는 1이 저장되는 식으로 나갑니다. $\{NSIS_MAX_INST_TYPES\}(기본값으로 32) 값이 저장되면 사용자 정의 인스톨 형태가 선택된 것을 의미합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="108">
             <Src CodePage="1252">
@@ -42091,7 +42498,11 @@
             <Src CodePage="1252">
               <Data>Sets the Text of the specified \R{ainsttype}{InstType}. If the Text is empty than the \R{ainsttype}{InstType} is removed. By using a previously unused inst_type_idx number you can create new InstTypes. To add/remove Sections to this new \R{ainsttype}{InstType} see \R{sectionsetinsttypes}{SectionSetInstTypes}. Unlike \R{ssectionin}{SectionIn} the index is zero based, which means the first install type's index is 0.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-36" State="ForReview">
+              <cur>
+                <Data>지정한 InstType 의 문자열을 설정합니다. 빈문자열을 설정하면 해당 InstType은 삭제됩니다. 이전에 사용한 적이 없는 inst_type_idx 값을 사용하는 것으로 새로운 InstTypes 를 만들 수 있습니다. 이러한 새로운 InstType 에 섹션을 추가/삭제하는 것은 \R{sectionsetinsttypes}{SectionSetInstTypes} 를 참조하세요. \R{ssectionin}{SectionIn} 과는 다르게 인덱스는 0이 기본값이며 이것은 첫번째 인스톨 형태의 인덱스는 0 이라는 의미입니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="111">
             <Src CodePage="1252">
@@ -42163,7 +42574,9 @@
             <Src CodePage="1252">
               <Data>Gets the Text of the specified \R{ainsttype}{InstType}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-28-36" State="ForReview">
+              <cur>지정한 InstType 의 문자열을 얻어옵니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="123">
             <Src CodePage="1252">
@@ -42232,6 +42645,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -42314,35 +42728,57 @@
             <Src CodePage="1252">
               <Data>\H{sections} Sections</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-29-04" State="ForReview">
+              <cur>
+                <Data>\H{sections} 섹션</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="1">
             <Src CodePage="1252">Each NSIS installer contains one or more sections. Each of these sections are created, modified, and ended with the following commands.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-29-04" State="ForReview">
+              <cur>모든 NSIS 인스톨러는 하나 또는 그 이상의 섹션을 포함하고 있습니다. 이러한 모든 섹션은 아래와 같은 명령에 의해 생성,변경, 종료 됩니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="2">
             <Src CodePage="1252">
               <Data>\b Each section contains zero or more instructions.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-29-04" State="ForReview">
+              <cur>
+                <Data>\b 각 섹션은 0 또는 그 이상의 명령을 포함합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="3">
             <Src CodePage="1252">
               <Data>\b Sections are executed in order by the resulting installer, and if \R{acomponenttext}{ComponentText} is set, the user will have the option of disabling/enabling each visible section.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-29-04" State="ForReview">
+              <cur>
+                <Data>\b 섹션은 순서대로 실행되며, ComponentText 가 설정되면 사용자는 각 보이는 섹션의 활성화/비활성화를 선택할 수 있습니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="4">
             <Src CodePage="1252">
               <Data>\b If a section's name is 'Uninstall' or is prefixed with 'un.', it's an uninstaller section.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-29-04" State="ForReview">
+              <cur>
+                <Data>\b 섹션 이름이 'Uninstall' 또는 접두사 'un.'로 시작되면 언인스톨러 섹션이 됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="5">
             <Src CodePage="1252">
               <Data>\S1{ssectioncommands} Section Commands</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-29-04" State="ForReview">
+              <cur>
+                <Data>\S1{ssectioncommands} 섹션 명령</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="6">
             <Src CodePage="1252">
@@ -42358,7 +42794,9 @@
           </Vl>
           <Vl Index="8">
             <Src CodePage="1252">Tells the installer that the current section needs an additional "size_kb" kilobytes of disk space. Only valid within a section (will have no effect outside of a section or in a function).</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-29-04" State="ForReview">
+              <cur>인스톨러에게 현재 섹션이 필요로 하는 추가적인 "size_kb" 만큼의 키로바이트 용량을 알려줍니다. 오직 섹션에서만 유효합니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="9">
             <Src CodePage="1252">
@@ -42394,7 +42832,11 @@
             <Src CodePage="1252">
               <Data>Begins and opens a new section. If section_name is empty, omitted, or begins with a -, then it is a hidden section and the user will not have the option of disabling it. If the section name is 'Uninstall' or is prefixed with 'un.', then it is a an uninstaller section. If \e{section_index_output} is specified, the parameter will be \R{define}{!defined} with the section index (that can be used for \R{sectionsettext}{SectionSetText} etc). If the section name begins with a !, the section will be displayed as bold. If the /o switch is specified, the section will be unselected by default.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-29-04" State="ForReview">
+              <cur>
+                <Data>새로운 섹션을 시작합니다. 섹션이름이 빈문자열 이거나 생략하거나 '-' 로 시작하면 숨김섹션이 되고 사용자는 사용여부를 결정할 수 없습니다. 섹션이름이 'Uninstall' 또는 접두사 'un.' 으로 시작하면 이 섹션은 언인스톨러 섹션이 됩니다. \e{section_index_output} 이 설정되면 매개변수는 \R{define}{!defined} 명령으로 섹션 인덱스가 설정됩니다 (\R{sectionsettext}{SectionSetText} 등에서 사용할 수 있습니다). 섹션이름이 !로 시작하면 굵은 글씨로 출력됩니다. /o 스위치가 설정되면 이 섹션은 기본값으로 비활성화됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="15">
             <Src CodePage="1252">
@@ -42482,7 +42924,11 @@
           </Vl>
           <Vl Index="29">
             <Src CodePage="1252">To access the section index, curly brackets must be used and the code must be located below the section in the script.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-29-04" State="ForReview">
+              <cur>
+                <Data>섹션 인덱스에 접근하려면 반드시 중괄호(\{\})로 감싸서 사용해야하며 스크립트 상에서 섹션 설정보다 밑에 위치해야합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="30">
             <Src CodePage="1252">
@@ -42624,7 +43070,9 @@
           </Vl>
           <Vl Index="53">
             <Src CodePage="1252">This command closes the current open section.</Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-29-04" State="ForReview">
+              <cur>현재 시작한 섹션을 종료합니다.</cur>
+            </Trg>
           </Vl>
           <Vl Index="54">
             <Src CodePage="1252">
@@ -42642,7 +43090,11 @@
             <Src CodePage="1252">
               <Data>This command specifies which install types (see \R{ainsttype}{InstType}) the current section defaults to the enabled state in. Multiple \R{ssectionin}{SectionIn} commands can be specified (they are combined). If you specify RO as a parameter, then the section will be read-only, meaning the user won't be able to change its state. The first install type defined using \R{ainsttype}{InstType} is indexed 1, the next 2 and so on.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-29-04" State="ForReview">
+              <cur>
+                <Data>이 명령은 현재 섹션이 기본적으로 활성화되어 포함될 인스톨 형태(\R{ainsttype}{InstType} 참조)를 설정합니다. 복수개의 SectionIn 명령이 가능합니다(이 명령들은 조합됩니다). RO 를 매개변수로 지정하면 이 섹션은 읽기전용이 되어 사용자는 상태를 변경할 수 없습니다. \R{ainsttype}{InstType} 를 사용하여 선언한 인스톨 형태의 첫번째 인덱스 값은 1이며 그 다음은 2, 순으로 나갑니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="57">
             <Src CodePage="1252">
@@ -42720,7 +43172,11 @@
             <Src CodePage="1252">
               <Data>This command inserts a section group. The section group must be closed with \R{ssectiongroupend}{SectionGroupEnd}, and should contain 1 or more sections. If the section group name begins with a !, its name will be displayed with a bold font. If /e is present, the section group will be expanded by default. If \e{index_output} is specified, the parameter will be !defined with the section index (that can be used for \R{sectionsettext}{SectionSetText} etc). If the name is prefixed with 'un.' the section group is an uninstaller section group.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-29-04" State="ForReview">
+              <cur>
+                <Data>섹션 그룹을 추가합니다. 섹션 그룹은 반드시 \R{ssectiongroupend}{SectionGroupEnd} 명령으로 종료해야 하며 하나 또는 그 이상의 섹션을 가집니다. 섹션 그룹 이름이 ! 로 시작하면 굵은 글씨로 출력됩니다. /e 스위치를 설정하면 이 섹션 그룹은 기본값으로 펼쳐져 보입니다. \e{index_output} 를 설정하면 매개변수는 !defined 명령으로 섹션 인덱스가 설정됩니다 (\R{sectionsettext}{SectionSetText} 등에서 사용할 수 있습니다). 섹션 그룹 이름이 'un.' 으로 시작하면 언인스톨러 섹션 그룹이 됩니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
           <Vl Index="70">
             <Src CodePage="1252">
@@ -42768,7 +43224,11 @@
             <Src CodePage="1252">
               <Data>Closes a section group opened with \R{ssectiongroup}{SectionGroup}.</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Changed="2013-08-05T13-29-04" State="ForReview">
+              <cur>
+                <Data>\R{ssectiongroup}{SectionGroup} 으로 시작한 섹션 그룹을 종료합니다.</Data>
+              </cur>
+            </Trg>
           </Vl>
         </Resource>
       </ResourceType>
@@ -42783,6 +43243,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -42970,7 +43431,7 @@
             <Src CodePage="1252">
               <Data>\c   ClearErrors</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-03-02" State="Validated"/>
           </Vl>
           <Vl Index="19">
             <Src CodePage="1252">
@@ -43035,6 +43496,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -43290,6 +43752,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -43469,6 +43932,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -44602,6 +45066,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -45213,6 +45678,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -45332,6 +45798,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -45739,6 +46206,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -45906,6 +46374,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -46510,7 +46979,7 @@
             <Src CodePage="1252">
               <Data>\c   ClearErrors</Data>
             </Src>
-            <Trg Created="2013-07-28T20-36-02"/>
+            <Trg Created="2013-07-28T20-36-02" Translated="2013-08-05T12-03-02" State="Validated"/>
           </Vl>
           <Vl Index="88">
             <Src CodePage="1252">
@@ -46871,6 +47340,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -48906,6 +49376,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
@@ -49731,6 +50202,7 @@
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
           <LangID>9</LangID>
         </LanguagesToExtract>
+        <Format Name="C-FORMAT">1</Format>
         <TargetEncoding>
           <Item Index="0" LangID="-1" Enabled="1"/>
         </TargetEncoding>
