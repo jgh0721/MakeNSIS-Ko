@@ -2,3 +2,9 @@
 *.rdlp~
 *.bak
 *.loc_tm
+
+/Documentation/src_ko_KR
+
+*ko_KR.html
+
+
