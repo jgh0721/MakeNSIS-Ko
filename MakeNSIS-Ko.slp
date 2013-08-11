@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<document created="20130811185246" version="3.0.339" date="20130811193724" scan="10" scanned="20130811192327">
+<document created="20130811185246" version="3.0.339" date="20130811195129" scan="10" scanned="20130811192327">
   <lang id="ko-KR" fontname="나눔고딕코딩" fontsize="10"/>
   <source class="THtmlSource" name="Base\Docs\InstallOptions\Readme.html" original="en-US" date="20130728102256" options="[hoCopyImages,hoScanImages,hoUpdateImageSizes,hoScanClientScripts,hoKeepTextFormat,hoKeepTextFormatInCodeTags,hoModifyContentLanguage,hoUpdateDirAttribute]" sourcecodecontext="sccValue">
     <outputfile dir="..\..\..\Documentation\InstallOptions" localized="&lt;dir&gt;&lt;file&gt;"/>
@@ -4544,7 +4544,10 @@
                           <attribute name="onclick" created="20130811191632" value="toggle('trigger_inres', 'toggle_inres');"/>
                         </tag>
                         <text created="20130811191632">
-                          <row id="0">Interface resources</row>
+                          <row id="0">
+                            <native>Interface resources</native>
+                            <lang id="ko-KR" date="20130811195029" status="2">인터페이스 자원</lang>
+                          </row>
                         </text>
                       </tag>
                       <tag name="div" created="20130811191632">
@@ -4587,7 +4590,10 @@
                           <attribute name="onclick" created="20130811191632" value="toggle('trigger_inwf', 'toggle_inwf');"/>
                         </tag>
                         <text created="20130811191632">
-                          <row id="0">Installer welcome/finish page</row>
+                          <row id="0">
+                            <native>Installer welcome/finish page</native>
+                            <lang id="ko-KR" date="20130811195129" status="2">설치관리자 환영/종료 페이지</lang>
+                          </row>
                         </text>
                       </tag>
                       <tag name="div" created="20130811191632">
@@ -9613,7 +9619,7 @@
                                   <text>
                                     <row id="0">
                                       <native>&lt;strong&gt;MUI_HEADERIMAGE_BITMAP_RTL_NOSTRETCH&lt;/strong&gt;&lt;br /&gt;#c#l                                                            Do not stretch the installer header bitmap when using a RTL language to fit the#c#l                                                            size of the field. Use this option only if you have an image that does not use the#c#l                                                            whole space. If you have a full size bitmap that fits exactly, you should not use#c#l                                                            this option because the size of the field will be different if the user has a custom#c#l                                                            DPI setting.</native>
-                                      <lang id="ko-KR" date="20130811193219" status="3">&lt;strong&gt;MUI_HEADERIMAGE_BITMAP_RTL_NOSTRETCH&lt;/strong&gt;&lt;br /&gt;#n                                                            Do not stretch the installer header bitmap when using a RTL language to fit the#n                                                            size of the field. Use this option only if you have an image that does not use the#n                                                            whole space. If you have a full size bitmap that fits exactly, you should not use#n                                                            this option because the size of the field will be different if the user has a custom#n                                                            DPI setting.</lang>
+                                      <lang id="ko-KR" date="20130811194852" status="3">&lt;strong&gt;MUI_HEADERIMAGE_BITMAP_RTL_NOSTRETCH&lt;/strong&gt;&lt;br /&gt;RTL 언어를 사용할 때 필드의 크기에 맞추어 비트맵 이미지를 늘리지 않습니다. 가지고 있는 이미지가 전체 공간을 사용하지 않을때만 이 옵션을 사용하십시요. 만약 정확히 맞는 크기의 이미지를 가지고 있다면 필드의 사이즈는 사용자의 DPI 설정이 변함에 따라 변하기 때문에 사용하면 안됩니다.</lang>
                                     </row>
                                   </text>
                                 </tag>
@@ -9623,7 +9629,7 @@
                               <text>
                                 <row id="0">
                                   <native>&lt;strong&gt;MUI_HEADERIMAGE_UNBITMAP&lt;/strong&gt; &lt;span class="parameter"&gt;bmp_file&lt;/span&gt;&lt;br /&gt;#c#l                                                    Bitmap image to display on the header of uninstaller pages (recommended size: 150x57#c#l                                                    pixels).&lt;br /&gt;#c#l                                                    &lt;em&gt;Default: Installer header bitmap&lt;/em&gt;</native>
-                                  <lang id="ko-KR" date="20130811193219" status="3">&lt;strong&gt;MUI_HEADERIMAGE_UNBITMAP&lt;/strong&gt; &lt;span&gt;bmp_file&lt;/span&gt;&lt;br /&gt;#n                                                    Bitmap image to display on the header of uninstaller pages (recommended size: 150x57#n                                                    pixels).&lt;br /&gt;#n                                                    &lt;em&gt;Default: Installer header bitmap&lt;/em&gt;</lang>
+                                  <lang id="ko-KR" date="20130811194858" status="3">&lt;strong&gt;MUI_HEADERIMAGE_UNBITMAP&lt;/strong&gt; &lt;span&gt;bmp_file&lt;/span&gt;&lt;br /&gt;언인스톨러 페이지들의 헤더에 나타낼 비트맵 이미지를 설정합니다. (권장크기: 150x57 픽셀.)&lt;br /&gt;#n                                                    &lt;em&gt;Default: Installer header bitmap&lt;/em&gt;</lang>
                                 </row>
                               </text>
                             </tag>
@@ -9633,7 +9639,7 @@
                                 <text>
                                   <row id="0">
                                     <native>&lt;strong&gt;MUI_HEADERIMAGE_UNBITMAP_NOSTRETCH&lt;/strong&gt;&lt;br /&gt;#c#l                                                        Do not stretch the uninstaller header bitmap to fit the size of the field. Use this#c#l                                                        option only if you have an image that does not use the whole space. If you have#c#l                                                        a full size bitmap that fits exactly, you should not use this option because the#c#l                                                        size of the field will be different if the user has a custom DPI setting.</native>
-                                    <lang id="ko-KR" date="20130811193219" status="3">&lt;strong&gt;MUI_HEADERIMAGE_UNBITMAP_NOSTRETCH&lt;/strong&gt;&lt;br /&gt;#n                                                        Do not stretch the uninstaller header bitmap to fit the size of the field. Use this#n                                                        option only if you have an image that does not use the whole space. If you have#n                                                        a full size bitmap that fits exactly, you should not use this option because the#n                                                        size of the field will be different if the user has a custom DPI setting.</lang>
+                                    <lang id="ko-KR" date="20130811194917" status="3">&lt;strong&gt;MUI_HEADERIMAGE_UNBITMAP_NOSTRETCH&lt;/strong&gt;&lt;br /&gt;필드의 크기에 맞추어 비트맵 이미지를 늘리지 않습니다. 가지고 있는 이미지가 전체 공간을 사용하지 않을때만 이 옵션을 사용하십시요. 만약 정확히 맞는 크기의 이미지를 가지고 있다면 필드의 사이즈는 사용자의 DPI 설정이 변함에 따라 변하기 때문에 사용하면 안됩니다.</lang>
                                   </row>
                                 </text>
                               </tag>
@@ -9641,7 +9647,7 @@
                                 <text>
                                   <row id="0">
                                     <native>&lt;strong&gt;MUI_HEADERIMAGE_UNBITMAP_RTL&lt;/strong&gt; &lt;span class="parameter"&gt;bmp_file&lt;/span&gt;&lt;br /&gt;#c#l                                                        Bitmap image to display on the header of uninstallers pages when using a RTL language#c#l                                                        (recommended size: 150x57 pixels).&lt;br /&gt;#c#l                                                        &lt;em&gt;Default: Installer RTL header bitmap&lt;/em&gt;</native>
-                                    <lang id="ko-KR" date="20130811193219" status="3">&lt;strong&gt;MUI_HEADERIMAGE_UNBITMAP_RTL&lt;/strong&gt; &lt;span&gt;bmp_file&lt;/span&gt;&lt;br /&gt;#n                                                        Bitmap image to display on the header of uninstallers pages when using a RTL language#n                                                        (recommended size: 150x57 pixels).&lt;br /&gt;#n                                                        &lt;em&gt;Default: Installer RTL header bitmap&lt;/em&gt;</lang>
+                                    <lang id="ko-KR" date="20130811194931" status="3">&lt;strong&gt;MUI_HEADERIMAGE_UNBITMAP_RTL&lt;/strong&gt; &lt;span&gt;bmp_file&lt;/span&gt;&lt;br /&gt;RTL 언어를 사용할 때 언인스톨러 페이지들에 나타낼 헤더 비트맵 이미지를 설정합니다. (권장크기: 150x57 픽셀).&lt;br /&gt;#n                                                        &lt;em&gt;Default: Installer RTL header bitmap&lt;/em&gt;</lang>
                                   </row>
                                 </text>
                               </tag>
@@ -9651,7 +9657,7 @@
                                   <text>
                                     <row id="0">
                                       <native>&lt;strong&gt;MUI_HEADERIMAGE_UNBITMAP_RTL_NOSTRETCH&lt;/strong&gt;&lt;br /&gt;#c#l                                                            Do not stretch the uninstaller header bitmap when using a RTL language to fit the#c#l                                                            size of the field. Use this option only if you have an image that does not use the#c#l                                                            whole space. If you have a full size bitmap that fits exactly, you should not use#c#l                                                            this option because the size of the field will be different if the user has a custom#c#l                                                            DPI setting.</native>
-                                      <lang id="ko-KR" date="20130811193219" status="3">&lt;strong&gt;MUI_HEADERIMAGE_UNBITMAP_RTL_NOSTRETCH&lt;/strong&gt;&lt;br /&gt;#n                                                            Do not stretch the uninstaller header bitmap when using a RTL language to fit the#n                                                            size of the field. Use this option only if you have an image that does not use the#n                                                            whole space. If you have a full size bitmap that fits exactly, you should not use#n                                                            this option because the size of the field will be different if the user has a custom#n                                                            DPI setting.</lang>
+                                      <lang id="ko-KR" date="20130811194935" status="3">&lt;strong&gt;MUI_HEADERIMAGE_UNBITMAP_RTL_NOSTRETCH&lt;/strong&gt;&lt;br /&gt;RTL 언어를 사용할 때 필드의 크기에 맞추어 비트맵 이미지를 늘리지 않습니다. 가지고 있는 이미지가 전체 공간을 사용하지 않을때만 이 옵션을 사용하십시요. 만약 정확히 맞는 크기의 이미지를 가지고 있다면 필드의 사이즈는 사용자의 DPI 설정이 변함에 따라 변하기 때문에 사용하면 안됩니다.</lang>
                                     </row>
                                   </text>
                                 </tag>
@@ -9661,7 +9667,7 @@
                               <text>
                                 <row id="0">
                                   <native>&lt;strong&gt;MUI_HEADERIMAGE_RIGHT&lt;/strong&gt;&lt;br /&gt;#c#l                                                    Display the header image on the right side instead of the left side (when using#c#l                                                    a RTL language it will be displayed on the left side instead of the right side).</native>
-                                  <lang id="ko-KR" date="20130811193219" status="3">&lt;strong&gt;MUI_HEADERIMAGE_RIGHT&lt;/strong&gt;&lt;br /&gt;#n                                                    Display the header image on the right side instead of the left side (when using#n                                                    a RTL language it will be displayed on the left side instead of the right side).</lang>
+                                  <lang id="ko-KR" date="20130811194947" status="3">&lt;strong&gt;MUI_HEADERIMAGE_RIGHT&lt;/strong&gt;&lt;br /&gt;헤더 이미지를 왼편이 아닌 오른편에 출력합니다 (RTL 언어를 사용하면 오른편이 아닌 왼편에 출력됩니다).</lang>
                                 </row>
                               </text>
                             </tag>
@@ -9670,7 +9676,7 @@
                             <text>
                               <row id="0">
                                 <native>&lt;strong&gt;MUI_BGCOLOR&lt;/strong&gt; &lt;span class="parameter"&gt;(color: RRGGBBR hexadecimal)&lt;/span&gt;&lt;br /&gt;#c#l                                                Background color for the header, the Welcome page and the Finish page.&lt;br /&gt;#c#l                                                &lt;em&gt;Default: FFFFFF&lt;/em&gt;</native>
-                                <lang id="ko-KR" date="20130811193219" status="3">&lt;strong&gt;MUI_BGCOLOR&lt;/strong&gt; &lt;span&gt;(color: RRGGBBR hexadecimal)&lt;/span&gt;&lt;br /&gt;#n                                                Background color for the header, the Welcome page and the Finish page.&lt;br /&gt;#n                                                &lt;em&gt;Default: FFFFFF&lt;/em&gt;</lang>
+                                <lang id="ko-KR" date="20130811195015" status="3">&lt;strong&gt;MUI_BGCOLOR&lt;/strong&gt; &lt;span&gt;(색상: RRGGBBR 16진수)&lt;/span&gt;&lt;br /&gt;환영, 종료 페이지의 헤더에 대한 배경 색을 지정합니다&lt;br /&gt;#n                                                &lt;em&gt;Default: FFFFFF&lt;/em&gt;</lang>
                               </row>
                             </text>
                           </tag>
@@ -9678,7 +9684,7 @@
                             <text>
                               <row id="0">
                                 <native>&lt;strong&gt;MUI_HEADER_TRANSPARENT_TEXT&lt;/strong&gt;&lt;br /&gt;#c#l                                                Set a transparent background for the header's label controls. Useful for custom#c#l                                                user interfaces that set a bigger header image.</native>
-                                <lang id="ko-KR" date="20130811193219" status="3">&lt;strong&gt;MUI_HEADER_TRANSPARENT_TEXT&lt;/strong&gt;&lt;br /&gt;#n                                                Set a transparent background for the header's label controls. Useful for custom#n                                                user interfaces that set a bigger header image.</lang>
+                                <lang id="ko-KR" date="20130811195019" status="3">&lt;strong&gt;MUI_HEADER_TRANSPARENT_TEXT&lt;/strong&gt;&lt;br /&gt;헤더 라벨 컨트롤에 투명 배경을 설정합니다. 더 큰 헤더 이미지를 설정하는 사용자 UI 에 유용합니다.</lang>
                               </row>
                             </text>
                           </tag>
@@ -9699,7 +9705,7 @@
                           <text>
                             <row id="0">
                               <native>Interface resources</native>
-                              <lang id="ko-KR" date="20130811193219" status="3">Interface resources</lang>
+                              <lang id="ko-KR" date="20130811195029" status="3">인터페이스 자원</lang>
                             </row>
                           </text>
                         </tag>
@@ -9710,7 +9716,7 @@
                             <text>
                               <row id="0">
                                 <native>&lt;strong&gt;MUI_UI&lt;/strong&gt; &lt;span class="parameter"&gt;ui_file&lt;/span&gt;&lt;br /&gt;#c#l                                                The interface file with the dialog resources. Change this if you have made your#c#l                                                own customized UI.&lt;br /&gt;#c#l                                                &lt;em&gt;Default: ${NSISDIR}\Contrib\UIs\modern.exe&lt;/em&gt;</native>
-                                <lang id="ko-KR" date="20130811193219" status="3">&lt;strong&gt;MUI_UI&lt;/strong&gt; &lt;span&gt;ui_file&lt;/span&gt;&lt;br /&gt;#n                                                The interface file with the dialog resources. Change this if you have made your#n                                                own customized UI.&lt;br /&gt;#n                                                &lt;em&gt;Default: ${NSISDIR}\Contrib\UIs\modern.exe&lt;/em&gt;</lang>
+                                <lang id="ko-KR" date="20130811195046" status="3">&lt;strong&gt;MUI_UI&lt;/strong&gt; &lt;span&gt;ui_file&lt;/span&gt;&lt;br /&gt;인터페이스에 적용할 대화상자 리소스 파일을 설정합니다. 이 파일을 변경하여 자신만의 UI를 만들 수 있습니다.&lt;br /&gt;#n                                                &lt;em&gt;Default: ${NSISDIR}\Contrib\UIs\modern.exe&lt;/em&gt;</lang>
                               </row>
                             </text>
                           </tag>
@@ -9718,7 +9724,7 @@
                             <text>
                               <row id="0">
                                 <native>&lt;strong&gt;MUI_UI_HEADERIMAGE&lt;/strong&gt; &lt;span class="parameter"&gt;ui_file&lt;/span&gt;&lt;br /&gt;#c#l                                                The interface files with the dialog resource IDD_INST that contains a bitmap control#c#l                                                and space for the header bitmap.&lt;br /&gt;#c#l                                                &lt;em&gt;Default: ${NSISDIR}\Contrib\UIs\modern_headerbmp.exe&lt;/em&gt;</native>
-                                <lang id="ko-KR" date="20130811193219" status="3">&lt;strong&gt;MUI_UI_HEADERIMAGE&lt;/strong&gt; &lt;span&gt;ui_file&lt;/span&gt;&lt;br /&gt;#n                                                The interface files with the dialog resource IDD_INST that contains a bitmap control#n                                                and space for the header bitmap.&lt;br /&gt;#n                                                &lt;em&gt;Default: ${NSISDIR}\Contrib\UIs\modern_headerbmp.exe&lt;/em&gt;</lang>
+                                <lang id="ko-KR" date="20130811195052" status="3">&lt;strong&gt;MUI_UI_HEADERIMAGE&lt;/strong&gt; &lt;span&gt;ui_file&lt;/span&gt;&lt;br /&gt;비트맵 컨트롤과 헤더 이미지를 위한 공간을 포함하는 대화상자 리소스 IDD_INST를 가진 인터페이스 파일을 설정합니다.&lt;br /&gt;#n                                                &lt;em&gt;Default: ${NSISDIR}\Contrib\UIs\modern_headerbmp.exe&lt;/em&gt;</lang>
                               </row>
                             </text>
                           </tag>
@@ -9726,7 +9732,7 @@
                             <text>
                               <row id="0">
                                 <native>&lt;strong&gt;MUI_UI_HEADERIMAGE_RIGHT&lt;/strong&gt; &lt;span class="parameter"&gt;ui_file&lt;/span&gt;&lt;br /&gt;#c#l                                                The interface files with the dialog resource IDD_INST that contains a bitmap control#c#l                                                and space for the header bitmap on the right side.&lt;br /&gt;#c#l                                                &lt;em&gt;Default: ${NSISDIR}\Contrib\UIs\modern_headerbmpr.exe&lt;/em&gt;</native>
-                                <lang id="ko-KR" date="20130811193219" status="3">&lt;strong&gt;MUI_UI_HEADERIMAGE_RIGHT&lt;/strong&gt; &lt;span&gt;ui_file&lt;/span&gt;&lt;br /&gt;#n                                                The interface files with the dialog resource IDD_INST that contains a bitmap control#n                                                and space for the header bitmap on the right side.&lt;br /&gt;#n                                                &lt;em&gt;Default: ${NSISDIR}\Contrib\UIs\modern_headerbmpr.exe&lt;/em&gt;</lang>
+                                <lang id="ko-KR" date="20130811195106" status="3">&lt;strong&gt;MUI_UI_HEADERIMAGE_RIGHT&lt;/strong&gt; &lt;span&gt;ui_file&lt;/span&gt;&lt;br /&gt;비트맵 컨트롤과 오른편에 헤더 이미지를 위한 공간을 포함하는 대화상자 리소스 IDD_INST를 가진 인터페이스 파일을 설정합니다.&lt;br /&gt;#n                                                &lt;em&gt;Default: ${NSISDIR}\Contrib\UIs\modern_headerbmpr.exe&lt;/em&gt;</lang>
                               </row>
                             </text>
                           </tag>
@@ -9734,7 +9740,7 @@
                             <text>
                               <row id="0">
                                 <native>&lt;strong&gt;MUI_UI_COMPONENTSPAGE_SMALLDESC&lt;/strong&gt; &lt;span class="parameter"&gt;ui_file&lt;/span&gt;&lt;br /&gt;#c#l                                                The interface files with a customized dialog resource IDD_SELCOM with a small description#c#l                                                area.&lt;br /&gt;#c#l                                                &lt;em&gt;Default: ${NSISDIR}\Contrib\UIs\modern_smalldesc.exe&lt;/em&gt;</native>
-                                <lang id="ko-KR" date="20130811193219" status="3">&lt;strong&gt;MUI_UI_COMPONENTSPAGE_SMALLDESC&lt;/strong&gt; &lt;span&gt;ui_file&lt;/span&gt;&lt;br /&gt;#n                                                The interface files with a customized dialog resource IDD_SELCOM with a small description#n                                                area.&lt;br /&gt;#n                                                &lt;em&gt;Default: ${NSISDIR}\Contrib\UIs\modern_smalldesc.exe&lt;/em&gt;</lang>
+                                <lang id="ko-KR" date="20130811195110" status="3">&lt;strong&gt;MUI_UI_COMPONENTSPAGE_SMALLDESC&lt;/strong&gt; &lt;span&gt;ui_file&lt;/span&gt;&lt;br /&gt;#n작은 설명 영역을 가진 사용자정의 대화상자 리소스 IDD_SELCOM 을 사진 인터페이스 파일을 설정합니다.&lt;br /&gt;#n                                                &lt;em&gt;Default: ${NSISDIR}\Contrib\UIs\modern_smalldesc.exe&lt;/em&gt;</lang>
                               </row>
                             </text>
                           </tag>
@@ -9742,7 +9748,7 @@
                             <text>
                               <row id="0">
                                 <native>&lt;strong&gt;MUI_UI_COMPONENTSPAGE_NODESC&lt;/strong&gt; &lt;span class="parameter"&gt;ui_file&lt;/span&gt;&lt;br /&gt;#c#l                                                The interface files with a customized dialog resource IDD_SELCOM without a description#c#l                                                area.&lt;br /&gt;#c#l                                                &lt;em&gt;Default: ${NSISDIR}\Contrib\UIs\modern_nodesc.exe&lt;/em&gt;</native>
-                                <lang id="ko-KR" date="20130811193219" status="3">&lt;strong&gt;MUI_UI_COMPONENTSPAGE_NODESC&lt;/strong&gt; &lt;span&gt;ui_file&lt;/span&gt;&lt;br /&gt;#n                                                The interface files with a customized dialog resource IDD_SELCOM without a description#n                                                area.&lt;br /&gt;#n                                                &lt;em&gt;Default: ${NSISDIR}\Contrib\UIs\modern_nodesc.exe&lt;/em&gt;</lang>
+                                <lang id="ko-KR" date="20130811195118" status="3">&lt;strong&gt;MUI_UI_COMPONENTSPAGE_NODESC&lt;/strong&gt; &lt;span&gt;ui_file&lt;/span&gt;&lt;br /&gt;설명 영역이 없는 사용자정의 대화상자 리소스 IDD_SELCOM 을 사진 인터페이스 파일을 설정합니다.&lt;br /&gt;#n                                                &lt;em&gt;Default: ${NSISDIR}\Contrib\UIs\modern_nodesc.exe&lt;/em&gt;</lang>
                               </row>
                             </text>
                           </tag>
@@ -9763,7 +9769,7 @@
                           <text>
                             <row id="0">
                               <native>Installer welcome/finish page</native>
-                              <lang id="ko-KR" date="20130811193219" status="3">Installer welcome/finish page</lang>
+                              <lang id="ko-KR" date="20130811195128" status="3">설치관리자 환영/종료 페이지</lang>
                             </row>
                           </text>
                         </tag>
